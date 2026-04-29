@@ -183,10 +183,12 @@ const renderMenu = (data) => {
   const root = $("#menu");
   root.removeAttribute("aria-busy");
 
-  // Aplanamos: cogemos el primer restaurante / primer menú (estructura del JSON dado)
-  const restaurant = data[0];
-  if (!restaurant) {
-    root.innerHTML = `<div class="error">El JSON está vacío.</div>`;
+  // Aceptamos dos formatos en la raíz del JSON:
+  //   - array de restaurantes: [ { restaurant, menus } ]
+  //   - un solo restaurante:   { restaurant, menus }
+  const restaurant = Array.isArray(data) ? data[0] : data;
+  if (!restaurant || !restaurant.menus) {
+    root.innerHTML = `<div class="error">El JSON no tiene la estructura esperada (falta <code>menus</code>).</div>`;
     return;
   }
   const menu = restaurant.menus && restaurant.menus[0];
