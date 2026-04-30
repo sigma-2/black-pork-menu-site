@@ -289,8 +289,20 @@ const initObservers = () => {
           const link = byId.get(e.target.id);
           if (link) {
             link.classList.add("is-active");
-            // scroll del nav para mantener el activo a la vista
-            link.scrollIntoView({ block: "nearest", inline: "center" });
+            // Mantener el link activo a la vista, pero SOLO horizontalmente
+            // dentro del propio nav (no usamos scrollIntoView para evitar que
+            // el navegador mueva también el scroll vertical de la página).
+            const navEl = link.parentElement;
+            const linkLeft = link.offsetLeft;
+            const linkRight = linkLeft + link.offsetWidth;
+            const viewLeft = navEl.scrollLeft;
+            const viewRight = viewLeft + navEl.clientWidth;
+            if (linkLeft < viewLeft || linkRight > viewRight) {
+              navEl.scrollTo({
+                left: linkLeft - navEl.clientWidth / 2 + link.offsetWidth / 2,
+                behavior: "smooth",
+              });
+            }
           }
         }
       });
@@ -308,9 +320,37 @@ const initObservers = () => {
     },
     { passive: true }
   );
-  toTop.addEventListener("click", () =>
-    window.scrollTo({ top: 0, behavior: "smooth" })
-  );
+  toTop.addEventListener("click", () => {
+    // En navegadores móviles / con scroll-behavior:smooth, window.scrollTo a veces
+    // se interrumpe a media subida. Forzamos el comportamiento suave aquí y, como
+    // red de seguridad, comprobamos al cabo de un momento si llegamos al top: si
+    // no, hacemos un salto duro.
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+
+    let lastY = window.scrollY;
+    let stableCount = 0;
+    const guard = setInterval(() => {
+      const y = window.scrollY;
+      if (y === 0) {
+        clearInterval(guard);
+        return;
+      }
+      // Si el scroll deja de moverse antes de llegar a 0, lo rematamos
+      if (Math.abs(y - lastY) < 1) {
+        stableCount++;
+        if (stableCount >= 3) {
+          clearInterval(guard);
+          window.scrollTo(0, 0); // salto inmediato sin animación
+        }
+      } else {
+        stableCount = 0;
+      }
+      lastY = y;
+    }, 80);
+
+    // Por si todo falla, lo paramos pasados 2 s
+    setTimeout(() => clearInterval(guard), 2000);
+  });
 };
 
 // ---------- Arranque ----------
