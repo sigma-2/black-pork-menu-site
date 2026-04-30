@@ -20,7 +20,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464553/biblioteca/items/COCA-COLA-ORIGINAL-350_grande.jpg",
-                  "placein_item_id": "0253fbc2-3e8c-46d6-8708-6ded97cb25af"
+                  "placein_item_id": "0253fbc2-3e8c-46d6-8708-6ded97cb25af",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Coca-Cola Zero",
@@ -31,7 +34,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464553/biblioteca/items/COCA-COLA_ZERO_350.jpg",
-                  "placein_item_id": "ad77d6c5-5360-4944-b608-69e891d546ac"
+                  "placein_item_id": "ad77d6c5-5360-4944-b608-69e891d546ac",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Coca-Cola Zero Zero",
@@ -42,7 +48,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464553/biblioteca/items/COCA-COLA_ZERO_ZERO_350.jpg",
-                  "placein_item_id": "61cf0e3e-8698-4681-a285-07ea95644be1"
+                  "placein_item_id": "61cf0e3e-8698-4681-a285-07ea95644be1",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Fanta Naranja",
@@ -53,7 +62,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464554/biblioteca/items/fanta_naranja_350.jpg",
-                  "placein_item_id": "ac2aff93-3412-4ec8-98a9-045fa27ae0f5"
+                  "placein_item_id": "ac2aff93-3412-4ec8-98a9-045fa27ae0f5",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Fanta Limón",
@@ -64,7 +76,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464553/biblioteca/items/Fanta_limon_350.jpg",
-                  "placein_item_id": "115c65e7-04f4-4f6d-9766-6394e3e6faf2"
+                  "placein_item_id": "115c65e7-04f4-4f6d-9766-6394e3e6faf2",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Sprite Original",
@@ -75,7 +90,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464557/biblioteca/items/SPRITE_300.jpg",
-                  "placein_item_id": "16f7c3f4-bc2b-4b72-b410-736b7ecc4b7e"
+                  "placein_item_id": "16f7c3f4-bc2b-4b72-b410-736b7ecc4b7e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Aquarius Naranja",
@@ -86,7 +104,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464552/biblioteca/items/AQUARIUS_NARANJA_300.jpg",
-                  "placein_item_id": "1993a85d-67c8-4bac-8626-8829cab39846"
+                  "placein_item_id": "1993a85d-67c8-4bac-8626-8829cab39846",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Aquarius Limón",
@@ -97,7 +118,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464552/biblioteca/items/AQUARIUS_LIMON_300.jpg",
-                  "placein_item_id": "39994a9d-9980-4c2c-9520-28522648a933"
+                  "placein_item_id": "39994a9d-9980-4c2c-9520-28522648a933",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Fuze Tea Sabor Original Limón",
@@ -108,7 +132,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1734427781/bf916331-28e6-44a0-b588-041837864002/qkhywhg6ofnfemkw0vyz.jpg",
-                  "placein_item_id": "e35b98bf-0a0d-45bf-a035-80d43cb0b882"
+                  "placein_item_id": "e35b98bf-0a0d-45bf-a035-80d43cb0b882",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Fuze Tea Sabor Original Té Verde-Maracuyá",
@@ -119,7 +146,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1734427956/bf916331-28e6-44a0-b588-041837864002/zrgwqytcpve3t5gwftkr.jpg",
-                  "placein_item_id": "19bd3e64-9c03-48dc-8b65-143125cbddac"
+                  "placein_item_id": "19bd3e64-9c03-48dc-8b65-143125cbddac",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bitter Kas",
@@ -130,7 +160,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706183064/biblioteca/items/bitter_kas.jpg",
-                  "placein_item_id": "619b05fd-3cfc-4fc0-8f38-cd72a0818db1"
+                  "placein_item_id": "619b05fd-3cfc-4fc0-8f38-cd72a0818db1",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "TINTO DE VERANO CASERO",
@@ -141,7 +174,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1718101678/a4aaa61c-f287-43ba-a69c-c58915f52423/iyxcleb8qtise0jztp7s.jpg",
-                  "placein_item_id": "0d770098-eb1d-427a-9a0d-6a8c5e33d1a7"
+                  "placein_item_id": "0d770098-eb1d-427a-9a0d-6a8c5e33d1a7",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -157,7 +193,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689066204/biblioteca/items/TAU_con_gas.png",
-                  "placein_item_id": "f9dcd63e-156a-4525-9b08-15d8e41384a1"
+                  "placein_item_id": "f9dcd63e-156a-4525-9b08-15d8e41384a1",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "AGUA",
@@ -168,7 +207,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688485838/biblioteca/items/AGUA_SIN_GAS_VIDRIO.jpg",
-                  "placein_item_id": "9c657b55-edb0-443a-8d5c-28dce9a6679e"
+                  "placein_item_id": "9c657b55-edb0-443a-8d5c-28dce9a6679e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -184,7 +226,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1710329307/Royal-Bliss-Tonic-Water.jpg",
-                  "placein_item_id": "b5444bf7-ea17-4ea6-b75b-2e60e8ae5b33"
+                  "placein_item_id": "b5444bf7-ea17-4ea6-b75b-2e60e8ae5b33",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -200,7 +245,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464554/biblioteca/items/Minute_maid_pi%C3%B1a.jpg",
-                  "placein_item_id": "7aa5eb88-2d8d-494c-94d7-146b23f11a51"
+                  "placein_item_id": "7aa5eb88-2d8d-494c-94d7-146b23f11a51",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Minute Maid Melocotón",
@@ -211,7 +259,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688464554/biblioteca/items/Minute_maid_melocoton.jpg",
-                  "placein_item_id": "59c2c625-3617-4bb9-9e18-832f688a2fb0"
+                  "placein_item_id": "59c2c625-3617-4bb9-9e18-832f688a2fb0",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Cacaolat",
@@ -222,7 +273,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689066338/biblioteca/items/CACAOLAT.jpg",
-                  "placein_item_id": "fb3aa9b3-990f-4f9f-b9fe-cd841115f69d"
+                  "placein_item_id": "fb3aa9b3-990f-4f9f-b9fe-cd841115f69d",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -249,7 +303,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1693297523/biblioteca/items/bebida_cervezas_ca%C3%B1a.png",
-                  "placein_item_id": "4009e4e4-902a-4659-8469-40c6a998a7bd"
+                  "placein_item_id": "4009e4e4-902a-4659-8469-40c6a998a7bd",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tanque",
@@ -271,7 +328,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689066241/biblioteca/items/bock_2.jpg",
-                  "placein_item_id": "6e42707b-b3f9-49bc-a227-d6919c07212e"
+                  "placein_item_id": "6e42707b-b3f9-49bc-a227-d6919c07212e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "JARRA",
@@ -293,7 +353,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124771/biblioteca/items/bebidas_cervezas_jarra.jpg",
-                  "placein_item_id": "2aeff714-634d-43c8-bc9e-82d74acffcc7"
+                  "placein_item_id": "2aeff714-634d-43c8-bc9e-82d74acffcc7",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Alambra 1925",
@@ -304,7 +367,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714037596/a4aaa61c-f287-43ba-a69c-c58915f52423/toseevdcx2rgyevsyajx.jpg",
-                  "placein_item_id": "fec33ecf-9384-45c1-bc1d-635f4dfe51d3"
+                  "placein_item_id": "fec33ecf-9384-45c1-bc1d-635f4dfe51d3",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tercio",
@@ -331,7 +397,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1693297536/biblioteca/items/BEBIDA_CERVEZAS_tercio__aislado.jpg",
-                  "placein_item_id": "8dbdbb1d-8d66-4ce5-bab2-8a642e1f8cfe"
+                  "placein_item_id": "8dbdbb1d-8d66-4ce5-bab2-8a642e1f8cfe",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "APEROL - SPRIT",
@@ -342,7 +411,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1718101710/a4aaa61c-f287-43ba-a69c-c58915f52423/brriuvjkb3xvszmlsjc5.jpg",
-                  "placein_item_id": "3deeb4e8-8b6e-43c8-b693-e9dd910faf88"
+                  "placein_item_id": "3deeb4e8-8b6e-43c8-b693-e9dd910faf88",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "TINTO DE VERANO CASERO",
@@ -353,7 +425,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1718101678/a4aaa61c-f287-43ba-a69c-c58915f52423/iyxcleb8qtise0jztp7s.jpg",
-                  "placein_item_id": "fe7f8119-2750-461b-8b02-c1e5eb09a87a"
+                  "placein_item_id": "fe7f8119-2750-461b-8b02-c1e5eb09a87a",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "VERMUT BLANCO O ROJO",
@@ -364,7 +439,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1754641030/a4aaa61c-f287-43ba-a69c-c58915f52423/iydosicwnmup6hubegmb.png",
-                  "placein_item_id": "9ca4f739-7b3a-4930-b86b-7d3f03cb3865"
+                  "placein_item_id": "9ca4f739-7b3a-4930-b86b-7d3f03cb3865",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tercio 0.0",
@@ -386,7 +464,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1686651242/biblioteca/items/BEBIDA_CERVEZA_tercio.jpg",
-                  "placein_item_id": "d3411f9e-b517-4318-847b-4d6af0c020ab"
+                  "placein_item_id": "d3411f9e-b517-4318-847b-4d6af0c020ab",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Daura sin Gluten",
@@ -397,7 +478,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714037999/a4aaa61c-f287-43ba-a69c-c58915f52423/hwvdpdnr0adew0ax790e.jpg",
-                  "placein_item_id": "d3e1f4d6-38ea-4a54-a8e8-7676243f4183"
+                  "placein_item_id": "d3e1f4d6-38ea-4a54-a8e8-7676243f4183",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Voll Damm",
@@ -408,7 +492,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1695659235/biblioteca/items/Voll-Damm.png",
-                  "placein_item_id": "e8757039-cb6b-4861-8de5-1c98b6edeefa"
+                  "placein_item_id": "e8757039-cb6b-4861-8de5-1c98b6edeefa",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "MENTIRETA",
@@ -419,7 +506,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1754090139/a4aaa61c-f287-43ba-a69c-c58915f52423/qa684w7p454av15meidn.jpg",
-                  "placein_item_id": "5f8f435d-99c8-4a3c-bac9-c27a659eb009"
+                  "placein_item_id": "5f8f435d-99c8-4a3c-bac9-c27a659eb009",
+                  "isNotAvailable": true,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -446,7 +536,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689066619/biblioteca/items/chupito.jpg",
-                  "placein_item_id": "843ee543-a8d4-4174-ba2b-a58b7b259184"
+                  "placein_item_id": "843ee543-a8d4-4174-ba2b-a58b7b259184",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Copa con Hielo",
@@ -468,7 +561,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714044977/a4aaa61c-f287-43ba-a69c-c58915f52423/nt9dpfwcwqmadmmhduuk.jpg",
-                  "placein_item_id": "c13bd7e6-78d4-40bc-a2ca-42b21a4a55c1"
+                  "placein_item_id": "c13bd7e6-78d4-40bc-a2ca-42b21a4a55c1",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Gin Tonic",
@@ -490,7 +586,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714045022/a4aaa61c-f287-43ba-a69c-c58915f52423/waex6zvpty88suvha2kw.jpg",
-                  "placein_item_id": "cc2971a3-0e2b-4101-a23e-f6ea38bc0bf5"
+                  "placein_item_id": "cc2971a3-0e2b-4101-a23e-f6ea38bc0bf5",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Combinado",
@@ -512,7 +611,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824093/biblioteca/items/COMBINADO_COCACOLA.jpg",
-                  "placein_item_id": "2e4888a2-938a-48d3-a743-1f983f30eea9"
+                  "placein_item_id": "2e4888a2-938a-48d3-a743-1f983f30eea9",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "MENTIRETA",
@@ -523,7 +625,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1754090139/a4aaa61c-f287-43ba-a69c-c58915f52423/qa684w7p454av15meidn.jpg",
-                  "placein_item_id": "a6b91c3c-34e4-4526-b249-3895b1aef89b"
+                  "placein_item_id": "a6b91c3c-34e4-4526-b249-3895b1aef89b",
+                  "isNotAvailable": true,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -554,7 +659,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824120/biblioteca/items/vino_blanco_copa.jpg",
-                  "placein_item_id": "47d97ce5-e62c-49f4-9776-db989f991e34"
+                  "placein_item_id": "47d97ce5-e62c-49f4-9776-db989f991e34",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "BLANCO DULZÓN",
@@ -576,7 +684,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824074/biblioteca/items/botella_copa_vino_blanco.png",
-                  "placein_item_id": "d6afb0c4-cfa8-411d-990d-07d45ac0b6e4"
+                  "placein_item_id": "d6afb0c4-cfa8-411d-990d-07d45ac0b6e4",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bahía Denia Moscatel 100%",
@@ -587,7 +698,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714038948/a4aaa61c-f287-43ba-a69c-c58915f52423/wsrrshmn1hclvrrzbp4g.jpg",
-                  "placein_item_id": "2fec0dd4-2e21-40c0-bb7e-19be98db7eda"
+                  "placein_item_id": "2fec0dd4-2e21-40c0-bb7e-19be98db7eda",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -614,7 +728,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824342/biblioteca/items/Copa_vino.jpg",
-                  "placein_item_id": "9758e97b-4820-413d-bbb7-8863cafbf221"
+                  "placein_item_id": "9758e97b-4820-413d-bbb7-8863cafbf221",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "51d0f42f-7681-4e91-a9f1-3d47f8f504c0",
+                      "title": "Popular",
+                      "subtitle": "Popular",
+                      "icon": "flame",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "CEREMONIA",
@@ -636,7 +762,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824342/biblioteca/items/Copa_vino.jpg",
-                  "placein_item_id": "f3dfd670-0a26-4761-951c-1ceeb636a1a2"
+                  "placein_item_id": "f3dfd670-0a26-4761-951c-1ceeb636a1a2",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Añares Crianza",
@@ -658,7 +796,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1685877071/biblioteca/items/BEBIDA_VINOS_tinto_a%C3%B1ares_rioja.jpg",
-                  "placein_item_id": "6b3a14de-d3db-4403-bec8-a5f73b3b502c"
+                  "placein_item_id": "6b3a14de-d3db-4403-bec8-a5f73b3b502c",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Venta del Puerto 12",
@@ -669,7 +810,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124911/biblioteca/items/BEBIDA_APERITIVOS_Fino_del_Puerto.png",
-                  "placein_item_id": "3a98544e-f97a-44b2-bfa0-e77a34d0f1b5"
+                  "placein_item_id": "3a98544e-f97a-44b2-bfa0-e77a34d0f1b5",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Cerro Añon Crianza 16 meses",
@@ -680,7 +824,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714053391/a4aaa61c-f287-43ba-a69c-c58915f52423/lle74toxo7zuescjzboj.jpg",
-                  "placein_item_id": "a23fd5df-ed1f-4c05-a551-09b9e3a0e596"
+                  "placein_item_id": "a23fd5df-ed1f-4c05-a551-09b9e3a0e596",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Ramón Bilbao Crianza",
@@ -691,7 +838,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067887/biblioteca/items/Ram%C3%B3n_Bilbao_Crianza_-_Rioja.jpg",
-                  "placein_item_id": "eb21db83-0722-4690-8bbc-895e8746c6ca"
+                  "placein_item_id": "eb21db83-0722-4690-8bbc-895e8746c6ca",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Luis Cañas Crianza",
@@ -702,7 +852,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067727/biblioteca/items/Luis_Ca%C3%B1as_Crianza.png",
-                  "placein_item_id": "19ffe9bb-f008-47e2-a004-5524bf82a757"
+                  "placein_item_id": "19ffe9bb-f008-47e2-a004-5524bf82a757",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Muga Crianza",
@@ -713,7 +866,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067779/biblioteca/items/Muga_crianza_2019.png",
-                  "placein_item_id": "8a9d4549-4bdf-440c-8ac0-3ec427e7fb2b"
+                  "placein_item_id": "8a9d4549-4bdf-440c-8ac0-3ec427e7fb2b",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Protos Roble",
@@ -724,7 +880,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067868/biblioteca/items/Protos_27-_tinto_ribera_del_duero.jpg",
-                  "placein_item_id": "2e1f63af-a1a5-40e8-ad70-571d334b4b60"
+                  "placein_item_id": "2e1f63af-a1a5-40e8-ad70-571d334b4b60",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Finca Resalso Roble",
@@ -735,7 +894,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700129554/biblioteca/items/Finca_Resalso-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "a451c0b1-17ab-4041-bf2c-9f13b30a60c3"
+                  "placein_item_id": "a451c0b1-17ab-4041-bf2c-9f13b30a60c3",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bardos Viñedos de Altura",
@@ -746,7 +908,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700129461/biblioteca/items/Bardos_Reserva_-_Ribera_del_duero-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "b1cb7d70-5c37-4111-9dc2-df12550aff48"
+                  "placein_item_id": "b1cb7d70-5c37-4111-9dc2-df12550aff48",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Emilio Moro Crianza",
@@ -757,7 +922,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700129540/biblioteca/items/Emilio_Moro_Crianza-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "42bc0544-12d4-459c-9bba-7fa78d870713"
+                  "placein_item_id": "42bc0544-12d4-459c-9bba-7fa78d870713",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Malleolus Reserva Especial",
@@ -768,7 +936,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067738/biblioteca/items/Malleolus_-_Ribera_del_Duero.jpg",
-                  "placein_item_id": "b8a0d342-8d28-44c3-bb47-6aa87809231a"
+                  "placein_item_id": "b8a0d342-8d28-44c3-bb47-6aa87809231a",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Juan Gil Roble jumilla",
@@ -779,7 +950,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700129581/biblioteca/items/Juan_Gil_18_Etiqueta_Az%C3%BAl-_tinto_jumilla-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "15659b73-cd02-4686-b084-a024f2684af7"
+                  "placein_item_id": "15659b73-cd02-4686-b084-a024f2684af7",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Juan Gil Plata crianza",
@@ -790,7 +964,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689067661/biblioteca/items/Juan_Gil_Plata.png",
-                  "placein_item_id": "d0690856-d571-4c7f-8b85-ca70f1a9c449"
+                  "placein_item_id": "d0690856-d571-4c7f-8b85-ca70f1a9c449",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Laya Roble Almanza",
@@ -801,7 +978,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714038638/a4aaa61c-f287-43ba-a69c-c58915f52423/zyxt9g8axzj7uyqnvdj2.png",
-                  "placein_item_id": "102913f7-f7ea-4194-a6bc-3de84ea0ed7e"
+                  "placein_item_id": "102913f7-f7ea-4194-a6bc-3de84ea0ed7e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             }
@@ -833,7 +1013,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1753888876/a4aaa61c-f287-43ba-a69c-c58915f52423/ktriysgvvnsehu2phtqi.jpg",
-                  "placein_item_id": "2ab843c5-02b3-43b3-b647-f82594319062"
+                  "placein_item_id": "2ab843c5-02b3-43b3-b647-f82594319062",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bellota 50%",
@@ -855,7 +1038,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1753889837/a4aaa61c-f287-43ba-a69c-c58915f52423/q7tsobpx8v5mvjbfo3ec.jpg",
-                  "placein_item_id": "50477d31-34e8-4fbc-83ce-0a629ee27462"
+                  "placein_item_id": "50477d31-34e8-4fbc-83ce-0a629ee27462",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -902,7 +1088,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1754377667/a4aaa61c-f287-43ba-a69c-c58915f52423/b25hlzwpfohuuhzl7t1x.jpg",
-                  "placein_item_id": "24420d0c-43bd-4fce-ab98-1456662bdb09"
+                  "placein_item_id": "24420d0c-43bd-4fce-ab98-1456662bdb09",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Quesos nacionales",
@@ -924,7 +1113,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1718913653/a4aaa61c-f287-43ba-a69c-c58915f52423/syydampombq8o2x29if8.jpg",
-                  "placein_item_id": "072377ca-fae8-4ba8-b785-581ce1865811"
+                  "placein_item_id": "072377ca-fae8-4ba8-b785-581ce1865811",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Embutido de bellota",
@@ -946,7 +1138,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715264751/a4aaa61c-f287-43ba-a69c-c58915f52423/btnw3ba3l7gdommbomhz.jpg",
-                  "placein_item_id": "d5f13b8b-2b84-4487-9394-a1e121278a18"
+                  "placein_item_id": "d5f13b8b-2b84-4487-9394-a1e121278a18",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Lacón a la gallega",
@@ -957,7 +1152,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1758357536/a4aaa61c-f287-43ba-a69c-c58915f52423/lnmujwuzwznrrdsr3stg.jpg",
-                  "placein_item_id": "8ad8dbfb-255f-4adb-a4e4-ce5cd7297348"
+                  "placein_item_id": "8ad8dbfb-255f-4adb-a4e4-ce5cd7297348",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Lomito de bellota",
@@ -979,7 +1177,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714044230/a4aaa61c-f287-43ba-a69c-c58915f52423/ca4yc35wity1m9m0jurs.jpg",
-                  "placein_item_id": "21e18590-c49a-4fc5-90c9-42b2fb6b3756"
+                  "placein_item_id": "21e18590-c49a-4fc5-90c9-42b2fb6b3756",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Pizarra patés y sobrasada",
@@ -990,7 +1191,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1718912764/a4aaa61c-f287-43ba-a69c-c58915f52423/jdsjo6frhu2krvxs0cjo.jpg",
-                  "placein_item_id": "f9ed79de-be79-4a1a-b1d1-f18904075020"
+                  "placein_item_id": "f9ed79de-be79-4a1a-b1d1-f18904075020",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -1006,7 +1210,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1755969904/a4aaa61c-f287-43ba-a69c-c58915f52423/javh988iyeqcawhrxrb7.jpg",
-                  "placein_item_id": "f9675a8d-b167-4f78-aae1-a664e7a9c1bd"
+                  "placein_item_id": "f9675a8d-b167-4f78-aae1-a664e7a9c1bd",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Papas con jamón",
@@ -1017,7 +1233,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715264541/a4aaa61c-f287-43ba-a69c-c58915f52423/j9ukigmdo3jjrvmqgscc.jpg",
-                  "placein_item_id": "2d129864-3431-4863-9359-77703cc9a398"
+                  "placein_item_id": "2d129864-3431-4863-9359-77703cc9a398",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "51d0f42f-7681-4e91-a9f1-3d47f8f504c0",
+                      "title": "Popular",
+                      "subtitle": "Popular",
+                      "icon": "flame",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Ensaladilla de marisco",
@@ -1028,7 +1256,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715258950/a4aaa61c-f287-43ba-a69c-c58915f52423/mpkmqo9vnzj5woqg5ep5.jpg",
-                  "placein_item_id": "1746ac7a-abf4-46a1-b1a4-e96d808a78cb"
+                  "placein_item_id": "1746ac7a-abf4-46a1-b1a4-e96d808a78cb",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Ensaladilla rusa",
@@ -1039,7 +1270,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1754378192/a4aaa61c-f287-43ba-a69c-c58915f52423/rmokptj8tmkdfrl8o8zz.jpg",
-                  "placein_item_id": "1f77d469-8a88-4712-aefa-701119583fdb"
+                  "placein_item_id": "1f77d469-8a88-4712-aefa-701119583fdb",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "PATA DE PULPO GALLEGO",
@@ -1050,7 +1284,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1729179020/a4aaa61c-f287-43ba-a69c-c58915f52423/poum2kxt82jwr6pdtk9m.jpg",
-                  "placein_item_id": "43c47cf2-cd1c-463d-bbbc-91ed099d91a1"
+                  "placein_item_id": "43c47cf2-cd1c-463d-bbbc-91ed099d91a1",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Boquerones (ración)",
@@ -1061,7 +1307,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1749134309/a4aaa61c-f287-43ba-a69c-c58915f52423/zcapupjjak9uyztatmrx.jpg",
-                  "placein_item_id": "1d7e0c29-3a55-4b52-a621-73085e9bcf82"
+                  "placein_item_id": "1d7e0c29-3a55-4b52-a621-73085e9bcf82",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "PERICANA ALCOIANA",
@@ -1072,7 +1321,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1749134348/a4aaa61c-f287-43ba-a69c-c58915f52423/hhenhoiqzcxsqbnhj9h8.jpg",
-                  "placein_item_id": "4df7a4a6-5d1d-451a-b4df-5e726b63279d"
+                  "placein_item_id": "4df7a4a6-5d1d-451a-b4df-5e726b63279d",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Mejillones",
@@ -1083,7 +1335,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1749133719/a4aaa61c-f287-43ba-a69c-c58915f52423/zslamaagooho1bntl3ig.jpg",
-                  "placein_item_id": "53770cc4-3dd2-4801-aed1-2fb7666ce881"
+                  "placein_item_id": "53770cc4-3dd2-4801-aed1-2fb7666ce881",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Sardinillas",
@@ -1094,7 +1349,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "",
-                  "placein_item_id": "a9cc277e-8868-40da-8a12-d1366b156d70"
+                  "placein_item_id": "a9cc277e-8868-40da-8a12-d1366b156d70",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Anchoas (ración)",
@@ -1105,7 +1363,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715259274/a4aaa61c-f287-43ba-a69c-c58915f52423/a72jrbemdfblgekyybon.jpg",
-                  "placein_item_id": "8cdb67d2-3af1-4c44-be51-7c9d8f5055a2"
+                  "placein_item_id": "8cdb67d2-3af1-4c44-be51-7c9d8f5055a2",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Escalivada",
@@ -1116,7 +1377,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1689066201/biblioteca/items/COMIDA_VERDURAS_Escalivada_OSCURO.jpg",
-                  "placein_item_id": "495afe68-872a-42f0-a730-a3a7a9fe4393"
+                  "placein_item_id": "495afe68-872a-42f0-a730-a3a7a9fe4393",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Papas",
@@ -1127,7 +1391,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1716568802/a4aaa61c-f287-43ba-a69c-c58915f52423/unbawn9qwdplbvuuutz2.jpg",
-                  "placein_item_id": "9206f3db-8ef3-40d5-aaa4-93667292c104"
+                  "placein_item_id": "9206f3db-8ef3-40d5-aaa4-93667292c104",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Cacahuetes",
@@ -1138,7 +1405,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124558/biblioteca/items/COMIDA_Cacahuetes.jpg",
-                  "placein_item_id": "259cf432-9e38-4798-a624-74b678d0cb89"
+                  "placein_item_id": "259cf432-9e38-4798-a624-74b678d0cb89",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Aceitunas",
@@ -1149,7 +1419,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700126321/biblioteca/items/COMIDAS_ENTRANTES_ACEITUNAS-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "ff2cfc6b-e912-4caf-bcf8-e181213e6f98"
+                  "placein_item_id": "ff2cfc6b-e912-4caf-bcf8-e181213e6f98",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Mini tapa de jamón",
@@ -1160,7 +1433,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1686487333/biblioteca/items/COMIDAS_EMBUTIDOS_tabla_jam%C3%B3n_serrano__OSCURO.jpg",
-                  "placein_item_id": "a0a426c2-1ee8-4c4b-bd5a-22948f202adb"
+                  "placein_item_id": "a0a426c2-1ee8-4c4b-bd5a-22948f202adb",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -1176,7 +1452,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1729179020/a4aaa61c-f287-43ba-a69c-c58915f52423/poum2kxt82jwr6pdtk9m.jpg",
-                  "placein_item_id": "97c2eada-2a55-47b1-94ca-3a57622a8a97"
+                  "placein_item_id": "97c2eada-2a55-47b1-94ca-3a57622a8a97",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "PERICANA ALCOIANA",
@@ -1187,7 +1475,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1749134348/a4aaa61c-f287-43ba-a69c-c58915f52423/hhenhoiqzcxsqbnhj9h8.jpg",
-                  "placein_item_id": "9df39479-4cfa-436f-bf2f-23f0d84c0124"
+                  "placein_item_id": "9df39479-4cfa-436f-bf2f-23f0d84c0124",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "PROVOLONE TOMATE con Viruta",
@@ -1198,7 +1489,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1758530633/a4aaa61c-f287-43ba-a69c-c58915f52423/ofopaczakc9auhuryzy2.jpg",
-                  "placein_item_id": "03da88a9-af43-4bd2-87c9-7f797760b69a"
+                  "placein_item_id": "03da88a9-af43-4bd2-87c9-7f797760b69a",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Provolone Quesos + azul",
@@ -1209,7 +1512,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1757511511/a4aaa61c-f287-43ba-a69c-c58915f52423/jbimyxyj6net4fdjpxjk.jpg",
-                  "placein_item_id": "e9bf5a44-7de6-444a-ae4b-c3e5fd6baac3"
+                  "placein_item_id": "e9bf5a44-7de6-444a-ae4b-c3e5fd6baac3",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Torreznos de Soria",
@@ -1220,7 +1535,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1758357420/a4aaa61c-f287-43ba-a69c-c58915f52423/fmmd83j9xqixcnmfmf0w.jpg",
-                  "placein_item_id": "d0fd79af-daf1-4271-8796-a3a8dd5116df"
+                  "placein_item_id": "d0fd79af-daf1-4271-8796-a3a8dd5116df",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 }
               ]
             }
@@ -1241,7 +1568,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706184007/biblioteca/items/COMIDA_DESAYUNO_TOSTADA_JAMON_ACEITE_TOMATE.jpg",
-                  "placein_item_id": "33dcbba8-0093-4f7c-afbe-996160724561"
+                  "placein_item_id": "33dcbba8-0093-4f7c-afbe-996160724561",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de jamón cebo Campo",
@@ -1252,7 +1582,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1685876967/biblioteca/items/COMIDAS_TOSTAS_Tostada_jam%C3%B3n_serrano__MADERA.jpg",
-                  "placein_item_id": "ac20e195-2640-4e36-9960-d5809b2e3ec7"
+                  "placein_item_id": "ac20e195-2640-4e36-9960-d5809b2e3ec7",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada jamón de bellota",
@@ -1263,7 +1596,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714043577/a4aaa61c-f287-43ba-a69c-c58915f52423/euk6lvxtznv3qdufgybb.jpg",
-                  "placein_item_id": "498ab9b0-f086-49ab-a358-ea8b3dafb9a0"
+                  "placein_item_id": "498ab9b0-f086-49ab-a358-ea8b3dafb9a0",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de sobrasada",
@@ -1274,7 +1610,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714043487/a4aaa61c-f287-43ba-a69c-c58915f52423/eaiauj0xxh7d4aqqxswn.jpg",
-                  "placein_item_id": "db1dcc50-3dd1-4191-a698-05db0438e99e"
+                  "placein_item_id": "db1dcc50-3dd1-4191-a698-05db0438e99e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de queso",
@@ -1285,7 +1624,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714043451/a4aaa61c-f287-43ba-a69c-c58915f52423/vmkuc5mnzwmw6g80vghv.jpg",
-                  "placein_item_id": "99d6511d-7f29-4039-a408-73bb7c26b41c"
+                  "placein_item_id": "99d6511d-7f29-4039-a408-73bb7c26b41c",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de viruta",
@@ -1296,7 +1638,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714043564/a4aaa61c-f287-43ba-a69c-c58915f52423/fbjqamlhz8hs5tr0tr0c.jpg",
-                  "placein_item_id": "c8deb818-1b56-4ae9-b6e5-56161b70cb1e"
+                  "placein_item_id": "c8deb818-1b56-4ae9-b6e5-56161b70cb1e",
+                  "isNotAvailable": true,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de ventresca",
@@ -1307,7 +1652,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706186007/biblioteca/items/COMIDA_TOSTA_ATUN_TOMATE.png",
-                  "placein_item_id": "99c5f598-fd43-45d2-a7d9-b3ae1fa1c30d"
+                  "placein_item_id": "99c5f598-fd43-45d2-a7d9-b3ae1fa1c30d",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de anchoas",
@@ -1318,7 +1666,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714042669/a4aaa61c-f287-43ba-a69c-c58915f52423/fclw6lxdte4dso4pyh7d.jpg",
-                  "placein_item_id": "edbb4676-c6b8-4215-9d9d-c9b891d7e36c"
+                  "placein_item_id": "edbb4676-c6b8-4215-9d9d-c9b891d7e36c",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostadas de tomate",
@@ -1329,7 +1680,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706784494/biblioteca/items/COMIDA_DESAYUNO_TOSTA_TOMATE_ACEITE.jpg",
-                  "placein_item_id": "ec6c0a7a-49df-41f3-81cb-ba8680167009"
+                  "placein_item_id": "ec6c0a7a-49df-41f3-81cb-ba8680167009",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tostada de aceite",
@@ -1340,7 +1694,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714042626/a4aaa61c-f287-43ba-a69c-c58915f52423/tul5wezcj89dkdmbwinx.jpg",
-                  "placein_item_id": "cccc6c5d-d7bb-4160-8b1e-7160c75a984f"
+                  "placein_item_id": "cccc6c5d-d7bb-4160-8b1e-7160c75a984f",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -1407,7 +1764,10 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712823519/biblioteca/items/COMIDA_BOCADILLOS_JAMON_SERRANO_IBERICO.jpg",
-                  "placein_item_id": "184983e5-7abf-4718-b246-421815ea2f29"
+                  "placein_item_id": "184983e5-7abf-4718-b246-421815ea2f29",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo de cebo de campo",
@@ -1469,7 +1829,10 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706183260/biblioteca/items/COMIDA_BOCADILLO_JAMON_SERRANO_IBERICO.jpg",
-                  "placein_item_id": "6b787e46-b4c4-4abf-901d-4afcbe9d4e62"
+                  "placein_item_id": "6b787e46-b4c4-4abf-901d-4afcbe9d4e62",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo Ibérico de bellota",
@@ -1531,7 +1894,10 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700125301/biblioteca/items/COMIDA_BOCADILLOS_jamon_serrano__oscuro-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "d8d8e86f-807c-401a-9433-d96e5512b009"
+                  "placein_item_id": "d8d8e86f-807c-401a-9433-d96e5512b009",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo de ventresca o anchoas",
@@ -1593,7 +1959,10 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706183250/biblioteca/items/COMIDA_BOCADILLO_ATUN_LECHUGA_TOMATE.jpg",
-                  "placein_item_id": "6d202656-0c1d-451f-96a0-707b7fc04785"
+                  "placein_item_id": "6d202656-0c1d-451f-96a0-707b7fc04785",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo de sobrasada, queso o embutido",
@@ -1655,7 +2024,10 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700125201/biblioteca/items/COMIDAS_BOCADILLOS_SOBRASADA-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "da1ae585-2e0d-4551-93f8-1120c0e9fd7d"
+                  "placein_item_id": "da1ae585-2e0d-4551-93f8-1120c0e9fd7d",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo de ahumados",
@@ -1721,7 +2093,19 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700126740/biblioteca/items/COMIDA_FOCACCIA_salmon_ahumado.jpg",
-                  "placein_item_id": "7f572e5e-1cb9-48f5-920c-4b0348fe337a"
+                  "placein_item_id": "7f572e5e-1cb9-48f5-920c-4b0348fe337a",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "Bocadillo de Esgarraet",
@@ -1783,7 +2167,19 @@
                   ],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700125369/biblioteca/items/COMIDA_BOCADILLOS_Tortilla_francesa_pimientos__color-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "58e10b66-5a56-4afc-8910-ca99909abb85"
+                  "placein_item_id": "58e10b66-5a56-4afc-8910-ca99909abb85",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 }
               ]
             }
@@ -1804,7 +2200,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1755970383/a4aaa61c-f287-43ba-a69c-c58915f52423/lxy7cjxmyzzm27snlsui.jpg",
-                  "placein_item_id": "c4710d4b-eb91-421c-b5f1-1e023a315dd3"
+                  "placein_item_id": "c4710d4b-eb91-421c-b5f1-1e023a315dd3",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Coulant de Queso con Frambuesa",
@@ -1815,7 +2214,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1758210044/a4aaa61c-f287-43ba-a69c-c58915f52423/danh9txxwofe9mztitwb.jpg",
-                  "placein_item_id": "48041fa6-989a-4a64-b957-f719cb2a5e5b"
+                  "placein_item_id": "48041fa6-989a-4a64-b957-f719cb2a5e5b",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tarta Lotus",
@@ -1826,7 +2228,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1749134288/a4aaa61c-f287-43ba-a69c-c58915f52423/nxzspcfmq3ygmzqhakgu.jpg",
-                  "placein_item_id": "31a9f051-6741-4ad8-8da0-06d6e269b9ca"
+                  "placein_item_id": "31a9f051-6741-4ad8-8da0-06d6e269b9ca",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "TARTA DE MANZANA",
@@ -1837,7 +2242,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1685874870/biblioteca/items/POSTRES_TARTAS_tarta_manzana_nata__claro.jpg",
-                  "placein_item_id": "66e6c2f3-5f81-4772-a698-b8043031dc52"
+                  "placein_item_id": "66e6c2f3-5f81-4772-a698-b8043031dc52",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "DEGUSTACION COULANT CHOCO - QUESO , LOTUS",
@@ -1848,7 +2256,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712824348/biblioteca/items/POSTRES.jpg",
-                  "placein_item_id": "b54af5bf-a123-4c90-b5ef-4b1d91d98339"
+                  "placein_item_id": "b54af5bf-a123-4c90-b5ef-4b1d91d98339",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             },
@@ -1864,7 +2275,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706608100/biblioteca/items/BEBIDA_CAFE_AMERICANO_SOLO_VASO.jpg",
-                  "placein_item_id": "76cfbdc6-e3c0-4a64-9ecd-1f293e49c7a0"
+                  "placein_item_id": "76cfbdc6-e3c0-4a64-9ecd-1f293e49c7a0",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Café cortado",
@@ -1875,7 +2289,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714045762/a4aaa61c-f287-43ba-a69c-c58915f52423/dixelh0xg7bctyqmv4xy.jpg",
-                  "placein_item_id": "fdab3579-1541-474d-b452-3988ec231577"
+                  "placein_item_id": "fdab3579-1541-474d-b452-3988ec231577",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Café con leche",
@@ -1886,7 +2303,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706608092/biblioteca/items/BEBIDA_CAFE_CON_LECHE_VASO_2.jpg",
-                  "placein_item_id": "63bd025b-0922-4eb1-bc72-49d3a51bc8b6"
+                  "placein_item_id": "63bd025b-0922-4eb1-bc72-49d3a51bc8b6",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Café americano",
@@ -1897,7 +2317,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124740/biblioteca/items/BEBIDA_CAFES_cafe_americano__madera.jpg",
-                  "placein_item_id": "24cc6e21-9f7c-42e0-b7dd-8746c5dd921e"
+                  "placein_item_id": "24cc6e21-9f7c-42e0-b7dd-8746c5dd921e",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Café bombón",
@@ -1908,7 +2331,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124730/biblioteca/items/BEBIDA_CAFES_BOMBON.jpg",
-                  "placein_item_id": "e20b2c04-54bf-4ecb-949d-eae47f71ebae"
+                  "placein_item_id": "e20b2c04-54bf-4ecb-949d-eae47f71ebae",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Capuchino Black Pork",
@@ -1919,7 +2345,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1685874938/biblioteca/items/BEBIDAS_CAFES_VASO_LECHE.jpg",
-                  "placein_item_id": "17e5717d-93f8-4951-a457-d72d8f172b49"
+                  "placein_item_id": "17e5717d-93f8-4951-a457-d72d8f172b49",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Chocolate a la Taza",
@@ -1930,7 +2359,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688485944/biblioteca/items/bebidas_chocolates_taza.jpg",
-                  "placein_item_id": "8f9a3cb1-8b3f-4af9-b0a2-d241ef055510"
+                  "placein_item_id": "8f9a3cb1-8b3f-4af9-b0a2-d241ef055510",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "ColaCao",
@@ -1941,7 +2373,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714045678/a4aaa61c-f287-43ba-a69c-c58915f52423/w7xusmggys0u3ixkrd69.jpg",
-                  "placein_item_id": "ee49c158-6a7b-4d15-baee-2ac0df8cd3ac"
+                  "placein_item_id": "ee49c158-6a7b-4d15-baee-2ac0df8cd3ac",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Carajillo",
@@ -1952,7 +2387,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1688485902/biblioteca/items/BEBIDA_CAFE_carajillo__blanco.jpg",
-                  "placein_item_id": "0146d952-c51d-408e-bdc2-02cff6ec9931"
+                  "placein_item_id": "0146d952-c51d-408e-bdc2-02cff6ec9931",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Carajillo \"cremat\"",
@@ -1963,7 +2401,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715266476/a4aaa61c-f287-43ba-a69c-c58915f52423/pvhxb8w7islvag9zo094.jpg",
-                  "placein_item_id": "707d247f-0ac1-4506-903d-1de410e1652c"
+                  "placein_item_id": "707d247f-0ac1-4506-903d-1de410e1652c",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "ROIBOS FRUTOS ROJOS SILVESTRES BIO",
@@ -1974,7 +2415,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1762609867/a4aaa61c-f287-43ba-a69c-c58915f52423/wswjuku7mks6r94igkv4.jpg",
-                  "placein_item_id": "a3235529-b3db-4238-8ca8-04c2dd0939c8"
+                  "placein_item_id": "a3235529-b3db-4238-8ca8-04c2dd0939c8",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Infusiones",
@@ -1985,7 +2429,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1706183023/biblioteca/items/BEBIDAS_INFUSIONES_FAMILIA_TE_NEGRO.png",
-                  "placein_item_id": "18fcb14a-a80a-49fe-bc92-fa7838252a8b"
+                  "placein_item_id": "18fcb14a-a80a-49fe-bc92-fa7838252a8b",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "VASO LECHE",
@@ -1996,7 +2443,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1685874938/biblioteca/items/BEBIDAS_CAFES_VASO_LECHE.jpg",
-                  "placein_item_id": "31414a3a-6274-45c8-aa36-1d31c71dc603"
+                  "placein_item_id": "31414a3a-6274-45c8-aa36-1d31c71dc603",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 }
               ]
             }
@@ -2017,7 +2467,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1714037999/a4aaa61c-f287-43ba-a69c-c58915f52423/hwvdpdnr0adew0ax790e.jpg",
-                  "placein_item_id": "0c476c9f-df5f-4f2f-be9e-a7b1a37f32d3"
+                  "placein_item_id": "0c476c9f-df5f-4f2f-be9e-a7b1a37f32d3",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Tercio 0.0",
@@ -2039,7 +2492,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1686651242/biblioteca/items/BEBIDA_CERVEZA_tercio.jpg",
-                  "placein_item_id": "f2e1aa47-b93e-4c3b-bdb2-099ead79757a"
+                  "placein_item_id": "f2e1aa47-b93e-4c3b-bdb2-099ead79757a",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Papas con jamón",
@@ -2050,7 +2506,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1715264541/a4aaa61c-f287-43ba-a69c-c58915f52423/j9ukigmdo3jjrvmqgscc.jpg",
-                  "placein_item_id": "1f188fb9-77bc-49f6-91f3-98f9eb6bfffd"
+                  "placein_item_id": "1f188fb9-77bc-49f6-91f3-98f9eb6bfffd",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "51d0f42f-7681-4e91-a9f1-3d47f8f504c0",
+                      "title": "Popular",
+                      "subtitle": "Popular",
+                      "icon": "flame",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 },
                 {
                   "name": "PATA DE PULPO GALLEGO",
@@ -2061,7 +2529,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1729179020/a4aaa61c-f287-43ba-a69c-c58915f52423/poum2kxt82jwr6pdtk9m.jpg",
-                  "placein_item_id": "cd6e5f62-7535-4a4e-a076-de24c11674e5"
+                  "placein_item_id": "cd6e5f62-7535-4a4e-a076-de24c11674e5",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Cacahuetes",
@@ -2072,7 +2543,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700124558/biblioteca/items/COMIDA_Cacahuetes.jpg",
-                  "placein_item_id": "1423ddf5-2bf3-4ae1-8c3b-177ec95ba549"
+                  "placein_item_id": "1423ddf5-2bf3-4ae1-8c3b-177ec95ba549",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Aceitunas",
@@ -2083,7 +2557,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1700126321/biblioteca/items/COMIDAS_ENTRANTES_ACEITUNAS-DESKTOP-DNCN98P.jpg",
-                  "placein_item_id": "7ca7edc2-b7e0-42b4-a57a-cb95f778f7ca"
+                  "placein_item_id": "7ca7edc2-b7e0-42b4-a57a-cb95f778f7ca",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Papas",
@@ -2094,7 +2571,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1716568802/a4aaa61c-f287-43ba-a69c-c58915f52423/unbawn9qwdplbvuuutz2.jpg",
-                  "placein_item_id": "864233a1-86af-47d7-9f08-998bf6401c45"
+                  "placein_item_id": "864233a1-86af-47d7-9f08-998bf6401c45",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Bocadillo de paletilla Ibérica",
@@ -2105,7 +2585,10 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1712823519/biblioteca/items/COMIDA_BOCADILLOS_JAMON_SERRANO_IBERICO.jpg",
-                  "placein_item_id": "ff376193-0b2c-4661-9872-92807bd35580"
+                  "placein_item_id": "ff376193-0b2c-4661-9872-92807bd35580",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": []
                 },
                 {
                   "name": "Torreznos de Soria",
@@ -2116,7 +2599,19 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "https://res.cloudinary.com/placeincdn/image/upload/v1758357420/a4aaa61c-f287-43ba-a69c-c58915f52423/fmmd83j9xqixcnmfmf0w.jpg",
-                  "placein_item_id": "6c5ffec7-5623-41e3-a719-ad7f2a35b814"
+                  "placein_item_id": "6c5ffec7-5623-41e3-a719-ad7f2a35b814",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "4edeeb45-a36f-4d86-ba5a-cad6cbe68b71",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ]
                 }
               ]
             }
