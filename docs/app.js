@@ -77,34 +77,93 @@ const renderProduct = (product) => {
   const descClass = isShouty(description) ? "product__desc is-shouty" : "product__desc";
 
   const img = image_url
-    ? `<img class="product__img" src="${escapeHTML(image_url)}" alt="" loading="lazy" decoding="async"
+      ? `<img class="product__img" src="${escapeHTML(image_url)}" alt="" loading="lazy" decoding="async"
         onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'product__img product__img--placeholder',textContent:'Black Pork'}))" />`
-    : `<div class="product__img product__img--placeholder">Black Pork</div>`;
+      : `<div class="product__img product__img--placeholder">Black Pork</div>`;
 
-  const price = base_price != null
-    ? `<span class="product__price">${formatPrice(base_price, currency)}</span>`
-    : "";
+  // Modificadores (panes, suplementos…)
+  const modifiers = product.modifiers || [];
+
+  // Para los bocadillos el precio base no es real (es el más barato sin pan).
+  // Si hay un modifier obligatorio (min>=1), el precio real arranca en su opción
+  // más económica. Mostramos "desde X €" en lugar del base_price.
+  const requiredMod = modifiers.find((m) => (m.min || 0) >= 1 && m.options?.length);
+  let displayPrice = base_price;
+  let priceFromLabel = "";
+  if (requiredMod) {
+    const minOpt = Math.min(...requiredMod.options.map((o) => o.price));
+    if (isFinite(minOpt)) {
+      displayPrice = minOpt;
+      priceFromLabel = "desde ";
+    }
+  }
+
+  const price = displayPrice != null
+      ? `<span class="product__price">${
+          priceFromLabel
+              ? `<span class="product__price-from">${priceFromLabel}</span>`
+              : ""
+      }${formatPrice(displayPrice, currency)}</span>`
+      : "";
 
   const variantsHTML = variants && variants.length
-    ? `<ul class="variants">${variants
-        .map(
-          (v) => `
+      ? `<ul class="variants">${variants
+          .map(
+              (v) => `
             <li>
               <span class="v-name">${escapeHTML(v.value || v.attribute || "")}</span>
               <span class="v-price">${formatPrice(v.price, currency)}</span>
             </li>`
-        )
-        .join("")}</ul>`
-    : "";
+          )
+          .join("")}</ul>`
+      : "";
+
+  const modifiersHTML = modifiers.length
+      ? `<div class="modifiers">${modifiers
+          .map((mod) => {
+            const required = (mod.min || 0) >= 1;
+            const maxNote =
+                mod.max > 1 ? ` · hasta ${mod.max}` : required ? "" : " · opcional";
+            return `
+            <div class="modifier">
+              <h5 class="modifier__title">
+                ${escapeHTML(mod.name)}
+                <span class="modifier__meta">${
+                required ? "elige uno" : "extras"
+            }${escapeHTML(maxNote)}</span>
+              </h5>
+              <ul class="modifier__opts">
+                ${(mod.options || [])
+                .map(
+                    (opt) => `
+                  <li>
+                    <span class="o-name">${escapeHTML(opt.name)}</span>
+                    <span class="o-price">${
+                        required
+                            ? formatPrice(opt.price, currency)
+                            : "+ " + formatPrice(opt.price, currency)
+                    }</span>
+                  </li>`
+                )
+                .join("")}
+              </ul>
+            </div>`;
+          })
+          .join("")}</div>`
+      : "";
 
   // Datos para búsqueda
   const haystack = [
     name,
     description,
     ...(variants || []).map((v) => `${v.attribute || ""} ${v.value || ""}`),
+    ...modifiers.flatMap((m) => [
+      m.name,
+      ...(m.options || []).map((o) => o.name),
+    ]),
   ]
-    .join(" ")
-    .toLowerCase();
+      .join(" ")
+      .toLowerCase();
 
   return `
     <article class="product" data-search="${escapeHTML(haystack)}">
@@ -117,6 +176,7 @@ const renderProduct = (product) => {
         </div>
         ${description ? `<p class="${descClass}">${escapeHTML(description)}</p>` : ""}
         ${variantsHTML}
+        ${modifiersHTML}
       </div>
     </article>
   `;

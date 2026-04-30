@@ -466,6 +466,88 @@ body::before {
   html { scroll-behavior: auto; }
 }
 
+
+/* =========================================================
+   Modificadores (panes, suplementos…)
+   ========================================================= */
+.modifiers {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dotted rgba(122, 106, 82, .35);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modifier__title {
+  margin: 0 0 6px;
+  font-family: var(--serif-sc);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.modifier__meta {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.modifier__opts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 4px 18px;
+}
+.modifier__opts li {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+.modifier__opts .o-name {
+  flex: 1;
+  border-bottom: 1px dotted var(--rule);
+  padding-right: 4px;
+  /* normaliza nombres en mayúsculas para que no griten */
+  text-transform: lowercase;
+}
+.modifier__opts .o-name::first-letter {
+  text-transform: uppercase;
+}
+.modifier__opts .o-price {
+  font-weight: 600;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* "desde X €" en bocadillos */
+.product__price-from {
+  font-family: var(--serif-sc);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 4px;
+  vertical-align: 1px;
+}
+
+
 /* =========================================================
    Responsive
    ========================================================= */
