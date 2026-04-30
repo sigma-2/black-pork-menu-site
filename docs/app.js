@@ -9,6 +9,27 @@ const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
 // ---------- Utilidades ----------
+// Capitaliza estilo título en castellano: primera letra de cada palabra
+// en mayúscula, excepto preposiciones/artículos/conjunciones cortas
+// (que sí van en mayúscula si son la primera palabra del nombre).
+const TITLE_LOWER = new Set([
+  "de","del","la","las","el","los","y","e","o","u","a","al","con","sin",
+  "en","por","para","ni","que","su","sus","lo","le","les","da","do",
+]);
+const toTitleCase = (str = "") =>
+    str
+        .toLocaleLowerCase("es-ES")
+        .split(/(\s+|[-/])/) // conserva separadores: espacios, guiones, barras
+        .map((token, i, arr) => {
+          // separadores se devuelven tal cual
+          if (/^(\s+|[-/])$/.test(token)) return token;
+          // primera "palabra real" del string: siempre capitalizada
+          const isFirstWord = arr.slice(0, i).every((t) => /^(\s+|[-/])$/.test(t));
+          if (!isFirstWord && TITLE_LOWER.has(token)) return token;
+          // mayúscula a la primera letra (con soporte de tildes/ñ)
+          return token.replace(/^(\p{L})/u, (m) => m.toLocaleUpperCase("es-ES"));
+        })
+        .join("");
 
 const slug = (str) =>
     str
@@ -73,7 +94,6 @@ const renderProduct = (product) => {
     image_url,
   } = product;
 
-  const nameClass = isShouty(name) ? "product__name is-shouty" : "product__name";
   const descClass = isShouty(description) ? "product__desc is-shouty" : "product__desc";
 
   const img = image_url
@@ -212,11 +232,11 @@ const renderProduct = (product) => {
       <div class="product__body">
         ${tagsHTML}
         <div class="product__top">
-          <h4 class="${nameClass}">${escapeHTML(name)}${
-        unavailable
-            ? ` <span class="product__status">· ${escapeHTML(unavailableReason)}</span>`
-            : ""
-    }</h4>
+          <h4 class="product__name">${escapeHTML(toTitleCase(name))}${
+              unavailable
+                  ? ` <span class="product__status">· ${escapeHTML(unavailableReason)}</span>`
+                  : ""
+          }</h4>
           <span class="product__lead" aria-hidden="true"></span>
           ${price}
         </div>
