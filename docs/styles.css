@@ -22,7 +22,9 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 110px; }
+html { scroll-behavior: smooth;
+    /*scroll-padding-top: 110px;*/
+}
 
 body {
   margin: 0;
@@ -197,7 +199,8 @@ body::before {
 
 .section {
   margin-top: 70px;
-  scroll-margin-top: 130px;
+  /* Usamos la variable --nav-height. Si no existe, usa 130px por defecto */
+  scroll-margin-top: var(--nav-height, 130px);
 }
 .section:first-child { margin-top: 30px; }
 

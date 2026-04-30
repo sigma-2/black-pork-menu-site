@@ -258,9 +258,11 @@ const renderSubsection = (sub) => {
     <div class="subsection" data-sub="${escapeHTML(slug(sub.name))}">
       <header class="subsection__head">
         <h3 class="subsection__title">${escapeHTML(sub.name)}</h3>
-        <span class="subsection__count">${products.length} ${
-      products.length === 1 ? "referencia" : "referencias"
-  }</span>
+        <!--
+          <span class="subsection__count">${products.length} ${
+          products.length === 1 ? "referencia" : "referencias"
+           }</span>
+        -->
       </header>
       <div class="products">
         ${products.map(renderProduct).join("")}
@@ -506,3 +508,18 @@ const boot = async () => {
 };
 
 boot();
+
+
+// Añade esto al final de app.js o dentro de initObservers
+const updateScrollMargin = () => {
+  const toolbar = document.getElementById('toolbar');
+  if (toolbar) {
+    // Medimos la altura real y sumamos unos 10-20px de margen extra
+    const height = toolbar.offsetHeight + 15;
+    document.documentElement.style.setProperty('--nav-height', `${height}px`);
+  }
+};
+
+// Ejecutar al cargar y cada vez que se cambie el tamaño de la ventana
+window.addEventListener('resize', updateScrollMargin);
+updateScrollMargin();
