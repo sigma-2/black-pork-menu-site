@@ -11,13 +11,13 @@ const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 // ---------- Utilidades ----------
 
 const slug = (str) =>
-  str
-    .toString()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+    str
+        .toString()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
 
 const formatPrice = (value, currency = "EUR") => {
   if (value == null || isNaN(value)) return "";
@@ -42,12 +42,12 @@ const isShouty = (str) => {
 };
 
 const escapeHTML = (str = "") =>
-  str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+    str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
 
 // Numeración romana para las secciones
 const toRoman = (num) => {
@@ -83,6 +83,45 @@ const renderProduct = (product) => {
 
   // Modificadores (panes, suplementos…)
   const modifiers = product.modifiers || [];
+
+  // Disponibilidad
+  const unavailable = !!(product.isNotAvailable || product.isOutOfStock);
+  const unavailableReason = product.isOutOfStock
+      ? "agotado"
+      : product.isNotAvailable
+          ? "no disponible"
+          : "";
+
+  // Tags reconocidos. Comparamos en minúsculas y aceptamos también `subtitle`
+  // por si en algún producto solo viene en inglés ("new").
+  const TAG_MAP = {
+    popular: { label: "Popular", cls: "tag--popular" },
+    novedad: { label: "Novedad", cls: "tag--new" },
+    new:     { label: "Novedad", cls: "tag--new" },
+  };
+  const tags = (product.tags || [])
+      .map((t) => {
+        const key = (t.title || t.subtitle || "").trim().toLowerCase();
+        return TAG_MAP[key] || null;
+      })
+      .filter(Boolean);
+  // Quitar duplicados por clase (por si Novedad aparece dos veces como "Novedad" y "new")
+  const seenTags = new Set();
+  const uniqueTags = tags.filter((t) =>
+      seenTags.has(t.cls) ? false : (seenTags.add(t.cls), true)
+  );
+
+  const tagsHTML = uniqueTags.length
+      ? `<p class="product__tags">${uniqueTags
+          .map(
+              (t) =>
+                  `<span class="tag ${t.cls}"><span class="tag__dot" aria-hidden="true"></span>${escapeHTML(
+                      t.label
+                  )}</span>`
+          )
+          .join("")}</p>`
+      : "";
+
 
   // Para los bocadillos el precio base no es real (es el más barato sin pan).
   // Si hay un modifier obligatorio (min>=1), el precio real arranca en su opción
@@ -166,11 +205,18 @@ const renderProduct = (product) => {
       .toLowerCase();
 
   return `
-    <article class="product" data-search="${escapeHTML(haystack)}">
+    <article class="product${unavailable ? " is-unavailable" : ""}" data-search="${escapeHTML(haystack)}"${
+        unavailable ? ` aria-disabled="true"` : ""
+    }>
       ${img}
       <div class="product__body">
+        ${tagsHTML}
         <div class="product__top">
-          <h4 class="${nameClass}">${escapeHTML(name)}</h4>
+          <h4 class="${nameClass}">${escapeHTML(name)}${
+        unavailable
+            ? ` <span class="product__status">· ${escapeHTML(unavailableReason)}</span>`
+            : ""
+    }</h4>
           <span class="product__lead" aria-hidden="true"></span>
           ${price}
         </div>
@@ -184,7 +230,7 @@ const renderProduct = (product) => {
 
 const renderSubsection = (sub) => {
   const products = (sub.products || []).filter(
-    (p) => p && (p.name || p.description)
+      (p) => p && (p.name || p.description)
   );
   if (!products.length) return ""; // ocultamos subsecciones vacías
 
@@ -193,8 +239,8 @@ const renderSubsection = (sub) => {
       <header class="subsection__head">
         <h3 class="subsection__title">${escapeHTML(sub.name)}</h3>
         <span class="subsection__count">${products.length} ${
-          products.length === 1 ? "referencia" : "referencias"
-        }</span>
+      products.length === 1 ? "referencia" : "referencias"
+  }</span>
       </header>
       <div class="products">
         ${products.map(renderProduct).join("")}
@@ -205,15 +251,15 @@ const renderSubsection = (sub) => {
 
 const renderSection = (section, idx) => {
   const subs = (section.subsections || [])
-    .map(renderSubsection)
-    .filter(Boolean)
-    .join("");
+      .map(renderSubsection)
+      .filter(Boolean)
+      .join("");
   if (!subs) return "";
 
   const id = slug(section.name);
   return `
     <section class="section" id="${id}" data-section="${id}" data-name="${escapeHTML(
-    section.name
+      section.name
   )}">
       <header class="section__head">
         <span class="section__num">Capítulo ${toRoman(idx + 1)}</span>
@@ -230,13 +276,13 @@ const renderSection = (section, idx) => {
 const renderNav = (sections) => {
   const nav = $("#sectionNav");
   nav.innerHTML = sections
-    .map(
-      (s) =>
-        `<a href="#${slug(s.name)}" data-target="${slug(s.name)}">${escapeHTML(
-          s.name
-        )}</a>`
-    )
-    .join("");
+      .map(
+          (s) =>
+              `<a href="#${slug(s.name)}" data-target="${slug(s.name)}">${escapeHTML(
+                  s.name
+              )}</a>`
+      )
+      .join("");
 };
 
 const renderMenu = (data) => {
@@ -265,14 +311,14 @@ const renderMenu = (data) => {
     titleEl.textContent = restaurant.restaurant;
   }
   const docTitle = restaurant.restaurant
-    ? `${restaurant.restaurant} — Carta`
-    : "Carta";
+      ? `${restaurant.restaurant} — Carta`
+      : "Carta";
   document.title = docTitle;
 
   renderNav(sections);
 
   root.innerHTML = sections.map(renderSection).join("") ||
-    `<div class="empty">Aún no hay platos publicados en esta carta.</div>`;
+      `<div class="empty">Aún no hay platos publicados en esta carta.</div>`;
 
   initObservers();
 };
@@ -342,43 +388,43 @@ const initObservers = () => {
   const byId = new Map(navLinks.map((a) => [a.dataset.target, a]));
 
   const obs = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          navLinks.forEach((a) => a.classList.remove("is-active"));
-          const link = byId.get(e.target.id);
-          if (link) {
-            link.classList.add("is-active");
-            // Mantener el link activo a la vista, pero SOLO horizontalmente
-            // dentro del propio nav (no usamos scrollIntoView para evitar que
-            // el navegador mueva también el scroll vertical de la página).
-            const navEl = link.parentElement;
-            const linkLeft = link.offsetLeft;
-            const linkRight = linkLeft + link.offsetWidth;
-            const viewLeft = navEl.scrollLeft;
-            const viewRight = viewLeft + navEl.clientWidth;
-            if (linkLeft < viewLeft || linkRight > viewRight) {
-              navEl.scrollTo({
-                left: linkLeft - navEl.clientWidth / 2 + link.offsetWidth / 2,
-                behavior: "smooth",
-              });
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            navLinks.forEach((a) => a.classList.remove("is-active"));
+            const link = byId.get(e.target.id);
+            if (link) {
+              link.classList.add("is-active");
+              // Mantener el link activo a la vista, pero SOLO horizontalmente
+              // dentro del propio nav (no usamos scrollIntoView para evitar que
+              // el navegador mueva también el scroll vertical de la página).
+              const navEl = link.parentElement;
+              const linkLeft = link.offsetLeft;
+              const linkRight = linkLeft + link.offsetWidth;
+              const viewLeft = navEl.scrollLeft;
+              const viewRight = viewLeft + navEl.clientWidth;
+              if (linkLeft < viewLeft || linkRight > viewRight) {
+                navEl.scrollTo({
+                  left: linkLeft - navEl.clientWidth / 2 + link.offsetWidth / 2,
+                  behavior: "smooth",
+                });
+              }
             }
           }
-        }
-      });
-    },
-    { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+        });
+      },
+      { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
   );
   sections.forEach((s) => obs.observe(s));
 
   // Botón volver arriba
   const toTop = $("#toTop");
   window.addEventListener(
-    "scroll",
-    () => {
-      toTop.hidden = window.scrollY < 600;
-    },
-    { passive: true }
+      "scroll",
+      () => {
+        toTop.hidden = window.scrollY < 600;
+      },
+      { passive: true }
   );
   toTop.addEventListener("click", () => {
     // En navegadores móviles / con scroll-behavior:smooth, window.scrollTo a veces
@@ -430,11 +476,11 @@ const boot = async () => {
     console.error(err);
     const isFile = location.protocol === "file:";
     showError(
-      isFile
-        ? `No se puede cargar <code>menu.json</code> abriendo el archivo localmente con <code>file://</code> por las restricciones de CORS del navegador. Súbelo a GitHub Pages o sírvelo con un servidor local (por ejemplo <code>python3 -m http.server</code>).`
-        : `No se ha podido cargar <code>menu.json</code>. Comprueba que existe junto a <code>index.html</code>. Detalle: ${escapeHTML(
-            err.message
-          )}`
+        isFile
+            ? `No se puede cargar <code>menu.json</code> abriendo el archivo localmente con <code>file://</code> por las restricciones de CORS del navegador. Súbelo a GitHub Pages o sírvelo con un servidor local (por ejemplo <code>python3 -m http.server</code>).`
+            : `No se ha podido cargar <code>menu.json</code>. Comprueba que existe junto a <code>index.html</code>. Detalle: ${escapeHTML(
+                err.message
+            )}`
     );
   }
 };

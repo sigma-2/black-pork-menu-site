@@ -549,6 +549,79 @@ body::before {
 
 
 /* =========================================================
+   Tags (Popular, Novedad)
+   ========================================================= */
+.product__tags {
+  margin: 0 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  line-height: 1;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--serif-sc);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  background: rgba(180, 138, 60, .14);
+  padding: 3px 9px 3px 8px;
+  border-radius: 999px;
+}
+.tag__dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  flex-shrink: 0;
+}
+.tag--popular { color: var(--accent); }
+.tag--new {
+  color: #4a5d23;
+}
+.tag--new .tag__dot { background: #6b7d3a; }
+
+/* =========================================================
+   Producto no disponible / agotado
+   ========================================================= */
+.product.is-unavailable {
+  opacity: .5;
+  filter: grayscale(.5);
+  position: relative;
+}
+.product.is-unavailable:hover {
+  background: transparent;
+}
+.product.is-unavailable .product__img {
+  filter: grayscale(1) brightness(.95);
+}
+.product.is-unavailable .product__price,
+.product.is-unavailable .modifier__opts .o-price,
+.product.is-unavailable .variants .v-price {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  color: var(--muted);
+}
+.product__status {
+  font-family: var(--serif-sc);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-left: 4px;
+  white-space: nowrap;
+  /* compensa el opacity del padre para que se lea bien */
+  opacity: 1.6;
+}
+
+
+/* =========================================================
    Responsive
    ========================================================= */
 @media (max-width: 700px) {
