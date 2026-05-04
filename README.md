@@ -101,6 +101,3 @@ El renderer asume la siguiente forma (la del archivo de ejemplo):
   }
 ]
 ```
-
-Toma el **primer restaurante** y el **primer menú** del array. Si necesitas
-mostrar varios restaurantes o cambiar entre menús, dímelo y lo amplío.
