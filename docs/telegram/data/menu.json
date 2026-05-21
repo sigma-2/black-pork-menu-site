@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-21T12:28:43.178Z",
+  "generated_at": "2026-05-21T12:31:23.749Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -279,6 +279,31 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/alambra_1925.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Caña",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Marca",
+                      "value": "Estrella Levante",
+                      "price": 2.8
+                    },
+                    {
+                      "attribute": "Marca",
+                      "value": "Turia",
+                      "price": 2.9
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cana.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2314,31 +2339,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/bocadillo_de_pollo_con_curry.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Caña",
-                  "description": "",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Marca",
-                      "value": "Estrella Levante",
-                      "price": 3.08
-                    },
-                    {
-                      "attribute": "Marca",
-                      "value": "Turia",
-                      "price": 3.19
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cana.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
