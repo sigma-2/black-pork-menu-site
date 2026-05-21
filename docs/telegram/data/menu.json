@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-21T10:42:40.858Z",
+  "generated_at": "2026-05-21T10:44:09.017Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -147,20 +147,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/fuze_tea_sabor_original_te_verde_maracuya.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Sprite Original",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/sprite_original.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
