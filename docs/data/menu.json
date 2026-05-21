@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-21T11:18:50.846Z",
+  "generated_at": "2026-05-21T12:47:35.474Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -271,20 +271,6 @@
               "name": "Cervezas",
               "products": [
                 {
-                  "name": "APEROL - SPRIT",
-                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
-                  "base_price": 5.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aperol_sprit.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Alambra 1925",
                   "description": "330 ml",
                   "base_price": 3,
@@ -293,6 +279,31 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/alambra_1925.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Caña",
+                  "description": "",
+                  "base_price": 2.8,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Marca",
+                      "value": "Estrella Levante",
+                      "price": 2.8
+                    },
+                    {
+                      "attribute": "Marca",
+                      "value": "Turia",
+                      "price": 2.9
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cana.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -313,28 +324,50 @@
                   "sin_gluten": true
                 },
                 {
-                  "name": "MENTIRETA",
+                  "name": "JARRA",
                   "description": "",
-                  "base_price": 5,
+                  "base_price": 11,
                   "currency": "EUR",
-                  "variants": [],
+                  "variants": [
+                    {
+                      "attribute": "Marca",
+                      "value": "Estrella Levante",
+                      "price": 11
+                    },
+                    {
+                      "attribute": "Marca",
+                      "value": "Turia",
+                      "price": 11.2
+                    }
+                  ],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/mentireta.jpg",
+                  "image_url": "./assets/products/jarra.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "VERMUT BLANCO O ROJO",
+                  "name": "Tanque",
                   "description": "",
-                  "base_price": 5,
+                  "base_price": 4.6,
                   "currency": "EUR",
-                  "variants": [],
+                  "variants": [
+                    {
+                      "attribute": "Marca",
+                      "value": "Estrella Levante",
+                      "price": 4.6
+                    },
+                    {
+                      "attribute": "Marca",
+                      "value": "Turia",
+                      "price": 4.8
+                    }
+                  ],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
+                  "image_url": "./assets/products/tanque.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -359,6 +392,20 @@
             {
               "name": "Licores",
               "products": [
+                {
+                  "name": "APEROL - SPRIT",
+                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aperol_sprit.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
                 {
                   "name": "Chupito",
                   "description": "",
@@ -454,6 +501,34 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/gin_tonic.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "MENTIRETA",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mentireta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "VERMUT BLANCO O ROJO",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2250,20 +2325,6 @@
               "name": "Otros",
               "products": [
                 {
-                  "name": "ALHAMBRA VERDE (supeco)",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/alhambra_verde_supeco.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Batido de plátano",
                   "description": "",
                   "base_price": 3.96,
@@ -2412,48 +2473,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/espresso.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Estrella Levante Caña",
-                  "description": "",
-                  "base_price": 2.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/estrella_levante_cana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Estrella Levante JARRA",
-                  "description": "",
-                  "base_price": 9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/estrella_levante_jarra.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Estrella Levante Tanque",
-                  "description": "",
-                  "base_price": 4.6,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/estrella_levante_tanque.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2824,48 +2843,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/schweppes.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia Caña",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_cana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia JARRA",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_jarra.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia Tanque",
-                  "description": "",
-                  "base_price": 4.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_tanque.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
