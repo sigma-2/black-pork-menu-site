@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-26T12:46:39.961Z",
+  "generated_at": "2026-05-26T13:07:55.240Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -465,7 +465,7 @@
                 {
                   "name": "APEROL - SPRIT",
                   "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
-                  "base_price": 5.5,
+                  "base_price": 137.5,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
