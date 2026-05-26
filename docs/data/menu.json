@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-21T12:47:35.474Z",
+  "generated_at": "2026-05-26T12:46:39.961Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -310,6 +310,20 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "Damm Lemon Tercio",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/damm_lemon_tercio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Daura sin Gluten",
                   "description": "330 ml",
                   "base_price": 3,
@@ -318,6 +332,34 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/daura_sin_gluten.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Estrella Levante Tercio",
+                  "description": "",
+                  "base_price": 2.8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/estrella_levante_tercio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Free Damm Rubia Tercio 0.0",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/free_damm_rubia_tercio_0_0.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -372,6 +414,34 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
+                },
+                {
+                  "name": "Turia Tercio",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/turia_tercio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Turia Tostada Tercio 0.0",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/turia_tostada_tercio_0_0.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
                 },
                 {
                   "name": "Voll Damm",
@@ -567,7 +637,7 @@
                 {
                   "name": "Bahía Denia Moscatel 100%",
                   "description": "Valencia",
-                  "base_price": 16,
+                  "base_price": 18,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
@@ -2437,20 +2507,6 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Damm Lemon Tercio",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/damm_lemon_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Demo_Agua",
                   "description": "",
                   "base_price": 2.42,
@@ -2479,20 +2535,6 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Estrella Levante Tercio",
-                  "description": "",
-                  "base_price": 2.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/estrella_levante_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Fanta",
                   "description": "",
                   "base_price": 2.42,
@@ -2505,20 +2547,6 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
-                },
-                {
-                  "name": "Fredamm Rubia Tercio 0.0",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fredamm_rubia_tercio_0_0.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
                 },
                 {
                   "name": "Funghi",
@@ -2847,34 +2875,6 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
-                },
-                {
-                  "name": "Turia Tercio",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia Tostada Tercio 0.0",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_tostada_tercio_0_0.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
                 },
                 {
                   "name": "Té helado",
