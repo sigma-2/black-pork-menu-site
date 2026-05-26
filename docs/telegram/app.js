@@ -1,9 +1,10 @@
 /* =========================================================
    Black Pork — Carta digital
    Carga menu.json y renderiza la carta
+   TEST
    ========================================================= */
 
-const MENU_URL = "data/menu.json";
+const MENU_URL = "./data/menu.json";
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
