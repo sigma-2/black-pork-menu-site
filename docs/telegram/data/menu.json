@@ -1,26 +1,208 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-26T13:30:02.733Z",
+  "generated_at": "2026-05-26T13:36:34.324Z",
   "menus": [
     {
       "name": "Carta principal",
       "sections": [
         {
-          "name": "Bebidas y vinos",
+          "name": "Otros",
           "subsections": [
             {
-              "name": "Refrescos",
+              "name": "Otros",
               "products": [
                 {
-                  "name": "AQUARIUS NARANJA",
-                  "description": "300 ml",
-                  "base_price": 2.9,
+                  "name": "AGUA",
+                  "description": "500CL",
+                  "base_price": 2.2,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/aquarius_naranja.jpg",
+                  "image_url": "./assets/products/agua.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "AGUA PIRINEA 1/3 REC. C24",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/agua_pirinea_1_3_rec_c24.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "ALH.RSVA 1925 RETORNABLE 0,30 L 24- U",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/alh_rsva_1925_retornable_0_30_l_24_u.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "ALHAMBRA VERDE (supeco)",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/alhambra_verde_supeco.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "APEROL - SPRIT",
+                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aperol_sprit.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "AQUARIUS NAR VR30 C24",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aquarius_nar_vr30_c24.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "AQUARIUS VR30 C24",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aquarius_vr30_c24.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "AZUCAR SOBRES BARSEL 1000 UDS*",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/azucar_sobres_barsel_1000_uds.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Aceitunas",
+                  "description": "",
+                  "base_price": 2,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aceitunas.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Aceitunas chupadedos 4k",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aceitunas_chupadedos_4k.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Agua Con Gas",
+                  "description": "500 cl",
+                  "base_price": 2.4,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/agua_con_gas.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Agua aquarel",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/agua_aquarel.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Alambra 1925",
+                  "description": "330 ml",
+                  "base_price": 3,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/alambra_1925.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Anchoas (ración)",
+                  "description": "6 unidades",
+                  "base_price": 11,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/anchoas_racion.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -41,643 +223,33 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bitter Kas",
-                  "description": "",
-                  "base_price": 2.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bitter_kas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola Original",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola_original.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola Zero",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola_zero.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola Zero Zero",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola_zero_zero.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Fanta Limón",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fanta_limon.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Fanta Naranja",
-                  "description": "350 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fanta_naranja.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Fuze Tea Sabor Original Limón",
+                  "name": "Aquarius Naranja",
                   "description": "300 ml",
                   "base_price": 2.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/fuze_tea_sabor_original_limon.jpg",
+                  "image_url": "./assets/products/aquarius_naranja.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Fuze Tea Sabor Original Té Verde-Maracuyá",
-                  "description": "300 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fuze_tea_sabor_original_te_verde_maracuya.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "TINTO DE VERANO CASERO",
-                  "description": "TINTO DE  VERANO DOS COLORES CON VINO Y LIMON",
-                  "base_price": 5.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tinto_de_verano_casero.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Aguas",
-              "products": [
-                {
-                  "name": "AGUA",
-                  "description": "500CL",
-                  "base_price": 2.2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/agua.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Agua Con Gas",
-                  "description": "500 cl",
-                  "base_price": 2.4,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/agua_con_gas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Tónicas",
-              "products": [
-                {
-                  "name": "Royal Bliss Tonic Water",
-                  "description": "200 ml",
-                  "base_price": 2.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/royal_bliss_tonic_water.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Zumos",
-              "products": [
-                {
-                  "name": "Cacaolat",
+                  "name": "Azúcar moreno barsel 500 ud sobres 7g",
                   "description": "",
-                  "base_price": 2.5,
+                  "base_price": 1.1,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/cacaolat.jpg",
+                  "image_url": "./assets/products/azucar_moreno_barsel_500_ud_sobres_7g.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
-                {
-                  "name": "Minute Maid Melocotón",
-                  "description": "200 ml",
-                  "base_price": 2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/minute_maid_melocoton.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Minute Maid Piña",
-                  "description": "200 ml",
-                  "base_price": 2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/minute_maid_pina.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Cervezas",
-              "products": [
-                {
-                  "name": "Alambra 1925",
-                  "description": "330 ml",
-                  "base_price": 3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/alambra_1925.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Caña",
-                  "description": "",
-                  "base_price": 2.8,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Marca",
-                      "value": "Estrella Levante",
-                      "price": 2.8
-                    },
-                    {
-                      "attribute": "Marca",
-                      "value": "Turia",
-                      "price": 2.9
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Damm Lemon Tercio",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/damm_lemon_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Daura sin Gluten",
-                  "description": "330 ml",
-                  "base_price": 3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/daura_sin_gluten.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "Estrella Levante Tercio",
-                  "description": "",
-                  "base_price": 2.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/estrella_levante_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Free Damm Rubia Tercio 0.0",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/free_damm_rubia_tercio_0_0.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "JARRA",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Marca",
-                      "value": "Estrella Levante",
-                      "price": 11
-                    },
-                    {
-                      "attribute": "Marca",
-                      "value": "Turia",
-                      "price": 11.2
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/jarra.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tanque",
-                  "description": "",
-                  "base_price": 4.6,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Marca",
-                      "value": "Estrella Levante",
-                      "price": 4.6
-                    },
-                    {
-                      "attribute": "Marca",
-                      "value": "Turia",
-                      "price": 4.8
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tanque.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia Tercio",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_tercio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Turia Tostada Tercio 0.0",
-                  "description": "",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/turia_tostada_tercio_0_0.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "Voll Damm",
-                  "description": "330 ml",
-                  "base_price": 3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/voll_damm.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Licores",
-              "products": [
-                {
-                  "name": "APEROL - SPRIT",
-                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
-                  "base_price": 5.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aperol_sprit.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Chupito",
-                  "description": "",
-                  "base_price": 2,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "NORMAL",
-                      "price": 2
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "PREMIUM",
-                      "price": 3
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/chupito.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Combinado",
-                  "description": "",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Normal",
-                      "price": 8
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Premium",
-                      "price": 9.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/combinado.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Copa con Hielo",
-                  "description": "",
-                  "base_price": 3.5,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Normal",
-                      "price": 3.5
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Premium",
-                      "price": 4.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/copa_con_hielo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Gin Tonic",
-                  "description": "",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Normal",
-                      "price": 8
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Premium",
-                      "price": 9.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/gin_tonic.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "MENTIRETA",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/mentireta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "VERMUT BLANCO O ROJO",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Vinos blancos",
-              "products": [
-                {
-                  "name": "BLANCO DULZÓN",
-                  "description": "AROMAS DULCES",
-                  "base_price": 15,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Botella",
-                      "price": 15
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Copa",
-                      "price": 3.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/blanco_dulzon.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bahía Denia Moscatel 100%",
-                  "description": "Valencia",
-                  "base_price": 18,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bahia_denia_moscatel_100.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Verdejo SECO",
-                  "description": "Rueda",
-                  "base_price": 13,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Botella",
-                      "price": 13
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Copa",
-                      "price": 3.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/verdejo_seco.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Vinos tintos",
-              "products": [
                 {
                   "name": "Añares Crianza",
                   "description": "D.O. Rioja",
@@ -704,6 +276,171 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "BARRIL E. LEVANTE 30L",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/barril_e_levante_30l.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BARRIL MARZEN TURIA 30L",
+                  "description": "",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/barril_marzen_turia_30l.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BARRIL VACIO 30 LITROS",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/barril_vacio_30_litros.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BASE BLANCA REDONDA 24CM PLATO",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/base_blanca_redonda_24cm_plato.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BLANCO DULZÓN",
+                  "description": "AROMAS DULCES",
+                  "base_price": 15,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Botella",
+                      "price": 15
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Copa",
+                      "price": 3.5
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/blanco_dulzon.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BOCADILLO DE AGUA 140GR",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bocadillo_de_agua_140gr.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "BOLSA BLACK PORK 300*270MM VACIO",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bolsa_black_pork_300_270mm_vacio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Bacon Burger",
+                  "description": "200G Irish Black Angus beef, caramelized onions with paprika, chopped iceberg salad, red onions, grilled bacon, tomato sauce, pickles, barbecue sauce",
+                  "base_price": 17.05,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [
+                    {
+                      "name": "Sides",
+                      "min": 0,
+                      "max": 5,
+                      "options": [
+                        {
+                          "name": "Belgian fresh homemade fries",
+                          "price": 17.05
+                        },
+                        {
+                          "name": "Sweet potato fries",
+                          "price": 17.05
+                        },
+                        {
+                          "name": "Smashed sweet potatoes",
+                          "price": 17.05
+                        },
+                        {
+                          "name": "Potatoes with thyme",
+                          "price": 17.05
+                        },
+                        {
+                          "name": "Grilled vegetables",
+                          "price": 17.05
+                        }
+                      ]
+                    }
+                  ],
+                  "allergens": [],
+                  "image_url": "./assets/products/bacon_burger.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Bahía Denia Moscatel 100%",
+                  "description": "Valencia",
+                  "base_price": 16,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bahia_denia_moscatel_100.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Bardos Viñedos de Altura",
                   "description": "D.O. Ribera del Duero",
                   "base_price": 22,
@@ -717,252 +454,6 @@
                   "tags": [],
                   "sin_gluten": false
                 },
-                {
-                  "name": "CEREMONIA",
-                  "description": "D.O. Valencia 100%",
-                  "base_price": 14,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Botella",
-                      "price": 14
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Copa",
-                      "price": 3.2
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ceremonia.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Cerro Añon Crianza 16 meses",
-                  "description": "D.O. Rioja",
-                  "base_price": 17,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cerro_anon_crianza_16_meses.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Emilio Moro Crianza",
-                  "description": "D.O. Ribera del Duero",
-                  "base_price": 32,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/emilio_moro_crianza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Finca Resalso Roble",
-                  "description": "D.O. Ribera del Duero",
-                  "base_price": 21,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/finca_resalso_roble.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Juan Gil Plata crianza",
-                  "description": "Otras D.O.",
-                  "base_price": 21,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/juan_gil_plata_crianza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Juan Gil Roble jumilla",
-                  "description": "Otras D.O.",
-                  "base_price": 16,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/juan_gil_roble_jumilla.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Laya Roble Almanza",
-                  "description": "Otras D.O.",
-                  "base_price": 15,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/laya_roble_almanza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Luis Cañas Crianza",
-                  "description": "D.O. Rioja",
-                  "base_price": 23,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/luis_canas_crianza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Malleolus Reserva Especial",
-                  "description": "D.O. Ribera del Duero",
-                  "base_price": 48,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/malleolus_reserva_especial.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Muga Crianza",
-                  "description": "D.O. Rioja",
-                  "base_price": 32,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/muga_crianza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Protos Roble",
-                  "description": "D.O. Ribera del Duero",
-                  "base_price": 19,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/protos_roble.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "RIBERA DEL DUERO",
-                  "description": "D.O. Ribera del Duero",
-                  "base_price": 13.7,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Botella",
-                      "price": 13.7
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Copa",
-                      "price": 3.9
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ribera_del_duero.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "popular",
-                      "title": "Popular",
-                      "subtitle": "Popular",
-                      "icon": "flame",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Ramón Bilbao Crianza",
-                  "description": "D.O. Rioja",
-                  "base_price": 19,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ramon_bilbao_crianza.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Venta del Puerto 12",
-                  "description": "D.O. Valencia",
-                  "base_price": 23,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/venta_del_puerto_12.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Tablas y entrantes",
-          "subsections": [
-            {
-              "name": "Surtido Madera Black Pork Todo incluido",
-              "products": [
                 {
                   "name": "Bellota 50%",
                   "description": "Tabla con jamón, embutidos y quesos",
@@ -989,654 +480,33 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Cebo de campo",
-                  "description": "Tabla con jamón, embutidos y quesos",
-                  "base_price": 29,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Media (2 personas)",
-                      "price": 29
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Entera (4 personas)",
-                      "price": 45
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cebo_de_campo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Nuestras tablas",
-              "products": [
-                {
-                  "name": "Embutido de bellota",
-                  "description": "",
-                  "base_price": 12,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Media",
-                      "price": 12
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Entera",
-                      "price": 16
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/embutido_de_bellota.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Jamón Ibérico",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Cebo Campo Medio",
-                      "price": 14.8
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Cebo Campo Entero",
-                      "price": 19.9
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Cebo campo Mini Tapa",
-                      "price": 5
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Bellota media",
-                      "price": 21
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Bellota Entera",
-                      "price": 26
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Bellota Mini Tapa",
-                      "price": 5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/jamon_iberico.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Lacón a la gallega",
-                  "description": "",
-                  "base_price": 12,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/lacon_a_la_gallega.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Lomito de bellota",
-                  "description": "",
-                  "base_price": 14,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Media",
-                      "price": 14
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Entera",
-                      "price": 19
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/lomito_de_bellota.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pizarra patés y sobrasada",
-                  "description": "",
-                  "base_price": 10.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/pizarra_pates_y_sobrasada.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Quesos nacionales",
-                  "description": "",
-                  "base_price": 14,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "Formato",
-                      "value": "Media",
-                      "price": 14
-                    },
-                    {
-                      "attribute": "Formato",
-                      "value": "Entera",
-                      "price": 18.5
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/quesos_nacionales.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Entrantes",
-              "products": [
-                {
-                  "name": "Aceitunas",
-                  "description": "",
-                  "base_price": 2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aceitunas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "Anchoas (ración)",
-                  "description": "6 unidades",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/anchoas_racion.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Boquerones (ración)",
-                  "description": "6 unidades",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/boquerones_racion.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Cacahuetes",
-                  "description": "",
-                  "base_price": 1.4,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cacahuetes.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "ESGARRAET",
-                  "description": "BACALAO CON PIMIENTO ROJO ASADO",
-                  "base_price": 9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/esgarraet.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Ensaladilla de marisco",
-                  "description": "",
-                  "base_price": 9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ensaladilla_de_marisco.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Ensaladilla rusa",
-                  "description": "",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ensaladilla_rusa.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Escalivada",
-                  "description": "",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/escalivada.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Mejillones",
-                  "description": "7-10 unidades",
-                  "base_price": 10,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/mejillones.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Mini tapa de jamón",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/mini_tapa_de_jamon.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "PATA DE PULPO GALLEGO",
-                  "description": "Pulpo fresco cocido",
-                  "base_price": 19.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/pata_de_pulpo_gallego.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "PERICANA ALCOIANA",
-                  "description": "PERICANA AL ESTILO ALCOIANA",
-                  "base_price": 9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/pericana_alcoiana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Papas",
-                  "description": "",
-                  "base_price": 1.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/papas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "Papas con jamón",
-                  "description": "",
-                  "base_price": 5.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/papas_con_jamon.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "popular",
-                      "title": "Popular",
-                      "subtitle": "Popular",
-                      "icon": "flame",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": true
-                },
-                {
-                  "name": "Sardinillas",
-                  "description": "10-12 unidades",
-                  "base_price": 7.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/sardinillas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Entrantes calientes",
-              "products": [
-                {
-                  "name": "PROVOLONE TOMATE con Viruta",
-                  "description": "Base nuestro tomate del día con queso , orégano fresco Acompañado de viruta fina",
-                  "base_price": 7,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/provolone_tomate_con_viruta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Provolone Quesos + azul",
-                  "description": "base queso provolone con queso azul , orégano fresco",
-                  "base_price": 6.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/provolone_quesos_azul.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Torreznos de Soria",
-                  "description": "DISPONIBLE - VIERNES Y SABADO DE TARDES",
-                  "base_price": 7.2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/torreznos_de_soria.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [
-                    {
-                      "id": "novedad",
-                      "title": "Novedad",
-                      "subtitle": "new",
-                      "icon": "stars",
-                      "isSelected": true,
-                      "type": 1
-                    }
-                  ],
-                  "sin_gluten": true
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Tostadas y bocadillos",
-          "subsections": [
-            {
-              "name": "Tostadas",
-              "products": [
-                {
-                  "name": "Tostada de aceite",
-                  "description": "",
-                  "base_price": 2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_aceite.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de anchoas",
-                  "description": "",
-                  "base_price": 4.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_anchoas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de jamón cebo Campo",
-                  "description": "",
-                  "base_price": 6,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_jamon_cebo_campo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de paletilla ibérica",
-                  "description": "",
-                  "base_price": 4.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_paletilla_iberica.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de queso",
-                  "description": "",
-                  "base_price": 3.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_queso.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de sobrasada",
-                  "description": "",
-                  "base_price": 3.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_sobrasada.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de ventresca",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_ventresca.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada de viruta",
-                  "description": "",
-                  "base_price": 4.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_de_viruta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostada jamón de bellota",
-                  "description": "",
-                  "base_price": 8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tostada_jamon_de_bellota.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tostadas de tomate",
+                  "name": "Bitter Kas",
                   "description": "",
                   "base_price": 2.5,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/tostadas_de_tomate.jpg",
+                  "image_url": "./assets/products/bitter_kas.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Bocadillos",
-              "products": [
+                },
+                {
+                  "name": "Bobina papel mecha laminado 6 u",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bobina_papel_mecha_laminado_6_u.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
                 {
                   "name": "Bocadillo Ibérico de bellota",
                   "description": "",
@@ -2116,17 +986,167 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Postres y cafés",
-          "subsections": [
-            {
-              "name": "Cafés",
-              "products": [
+                },
+                {
+                  "name": "Bocata Gran Reserva",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bocata_gran_reserva.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Bocata hostelera rústico Mediterráneo 130 gr",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bocata_hostelera_rustico_mediterraneo_130_gr.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Bocata tradicion especial 150gr",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/bocata_tradicion_especial_150gr.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Boquerones (ración)",
+                  "description": "6 unidades",
+                  "base_price": 8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/boquerones_racion.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Boquerón entero 45/55",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/boqueron_entero_45_55.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Burger Menu Combo",
+                  "description": "",
+                  "base_price": 11,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/burger_menu_combo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Burguer Cristalino",
+                  "description": "",
+                  "base_price": 1.1,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/burguer_cristalino.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "CEREMONIA",
+                  "description": "D.O. Valencia 100%",
+                  "base_price": 14,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Botella",
+                      "price": 14
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Copa",
+                      "price": 3.2
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/ceremonia.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Cacahuetes",
+                  "description": "",
+                  "base_price": 1.4,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cacahuetes.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Cacaolat",
+                  "description": "",
+                  "base_price": 2.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cacaolat.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
                 {
                   "name": "Café americano",
                   "description": "",
@@ -2240,6 +1260,126 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "Caña",
+                  "description": "",
+                  "base_price": 2.8,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 2.8
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 2.9
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cana.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Cebo de campo",
+                  "description": "Tabla con jamón, embutidos y quesos",
+                  "base_price": 29,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Media (2 personas)",
+                      "price": 29
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Entera (4 personas)",
+                      "price": 45
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cebo_de_campo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Cerro Añon Crianza 16 meses",
+                  "description": "D.O. Rioja",
+                  "base_price": 17,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cerro_anon_crianza_16_meses.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Cheese Burger",
+                  "description": "200G Irish Black Angus beef, 9-month matured cheddar cheese, shredded iceberg lettuce, caramelised onions, crushed tomatoes and Chef’s sauce.",
+                  "base_price": 14.3,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [
+                    {
+                      "name": "Sides",
+                      "min": 0,
+                      "max": 5,
+                      "options": [
+                        {
+                          "name": "Belgian fresh homemade fries",
+                          "price": 14.3
+                        },
+                        {
+                          "name": "Sweet potato fries",
+                          "price": 14.3
+                        },
+                        {
+                          "name": "Smashed sweet potatoes",
+                          "price": 14.3
+                        },
+                        {
+                          "name": "Potatoes with thyme",
+                          "price": 14.3
+                        },
+                        {
+                          "name": "Grilled vegetables",
+                          "price": 14.3
+                        }
+                      ]
+                    }
+                  ],
+                  "allergens": [],
+                  "image_url": "./assets/products/cheese_burger.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Chicken Curry Sandwich",
+                  "description": "",
+                  "base_price": 3.3,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/chicken_curry_sandwich.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Chocolate a la Taza",
                   "description": "",
                   "base_price": 2.5,
@@ -2248,6 +1388,101 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/chocolate_a_la_taza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Chupito",
+                  "description": "",
+                  "base_price": 2,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "NORMAL",
+                      "price": 2
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "PREMIUM",
+                      "price": 3
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/chupito.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Club Sandwich",
+                  "description": "",
+                  "base_price": 3.74,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/club_sandwich.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Coca-Cola",
+                  "description": "",
+                  "base_price": 2.42,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/coca_cola.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Coca-Cola Original",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/coca_cola_original.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Coca-Cola Zero",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/coca_cola_zero.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Coca-Cola Zero Zero",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/coca_cola_zero_zero.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2268,52 +1503,55 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Infusiones",
+                  "name": "Combinado",
                   "description": "",
-                  "base_price": 1.7,
+                  "base_price": 8,
                   "currency": "EUR",
-                  "variants": [],
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Normal",
+                      "price": 8
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Premium",
+                      "price": 9.5
+                    }
+                  ],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/infusiones.jpg",
+                  "image_url": "./assets/products/combinado.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "ROIBOS FRUTOS ROJOS SILVESTRES BIO",
-                  "description": "CONTIENE - TE ROJO, MANZANA, HIBISCO FLOR, ESCARAMUJO, *SAUCO , HOJAS DE MORA, *FRAMBUESA, * FRESA *ARANDANO",
-                  "base_price": 2.4,
+                  "name": "Copa con Hielo",
+                  "description": "",
+                  "base_price": 3.5,
                   "currency": "EUR",
-                  "variants": [],
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Normal",
+                      "price": 3.5
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Premium",
+                      "price": 4.5
+                    }
+                  ],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/roibos_frutos_rojos_silvestres_bio.jpg",
+                  "image_url": "./assets/products/copa_con_hielo.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
-                {
-                  "name": "VASO LECHE",
-                  "description": "",
-                  "base_price": 1.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/vaso_leche.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            },
-            {
-              "name": "Postres",
-              "products": [
                 {
                   "name": "Coulant de Queso con Frambuesa",
                   "description": "",
@@ -2357,164 +1595,132 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "TARTA DE MANZANA",
+                  "name": "Damm Lemon Tercio",
                   "description": "",
-                  "base_price": 5.5,
+                  "base_price": 1091.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/tarta_de_manzana.jpg",
+                  "image_url": "./assets/products/damm_lemon_tercio.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Tarta Lotus",
-                  "description": "",
-                  "base_price": 5.5,
+                  "name": "Daura sin Gluten",
+                  "description": "330 ml",
+                  "base_price": 3,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/tarta_lotus.jpg",
+                  "image_url": "./assets/products/daura_sin_gluten.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Otros",
-          "subsections": [
-            {
-              "name": "Otros",
-              "products": [
+                  "sin_gluten": true
+                },
                 {
-                  "name": "Batido de plátano",
-                  "description": "",
-                  "base_price": 3.96,
+                  "name": "ESGARRAET",
+                  "description": "BACALAO CON PIMIENTO ROJO ASADO",
+                  "base_price": 9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/batido_de_platano.jpg",
+                  "image_url": "./assets/products/esgarraet.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Embutido de bellota",
+                  "description": "",
+                  "base_price": 12,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Media",
+                      "price": 12
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Entera",
+                      "price": 16
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/embutido_de_bellota.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo Club",
-                  "description": "",
-                  "base_price": 3.74,
+                  "name": "Emilio Moro Crianza",
+                  "description": "D.O. Ribera del Duero",
+                  "base_price": 32,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/bocadillo_club.jpg",
+                  "image_url": "./assets/products/emilio_moro_crianza.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo de atún picante",
+                  "name": "Ensaladilla de marisco",
                   "description": "",
-                  "base_price": 3.3,
+                  "base_price": 9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_atun_picante.jpg",
+                  "image_url": "./assets/products/ensaladilla_de_marisco.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo de mozzarella",
+                  "name": "Ensaladilla rusa",
                   "description": "",
-                  "base_price": 4.29,
+                  "base_price": 8,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_mozzarella.jpg",
+                  "image_url": "./assets/products/ensaladilla_rusa.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo de pollo con curry",
+                  "name": "Escalivada",
                   "description": "",
-                  "base_price": 3.3,
+                  "base_price": 8,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_pollo_con_curry.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Combinación de sushi",
-                  "description": "",
-                  "base_price": 22,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/combinacion_de_sushi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Combinación del menú de hamburguesas",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/combinacion_del_menu_de_hamburguesas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Demo_Agua",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/demo_agua.jpg",
+                  "image_url": "./assets/products/escalivada.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2535,6 +1741,20 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "Estrella Levante Tercio",
+                  "description": "",
+                  "base_price": 2.8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/estrella_levante_tercio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Fanta",
                   "description": "",
                   "base_price": 2.42,
@@ -2547,6 +1767,62 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
+                },
+                {
+                  "name": "Fanta Limón",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/fanta_limon.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Fanta Naranja",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/fanta_naranja.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Finca Resalso Roble",
+                  "description": "D.O. Ribera del Duero",
+                  "base_price": 21,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/finca_resalso_roble.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Free Damm Rubia Tercio 0.0",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/free_damm_rubia_tercio_0_0.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
                 },
                 {
                   "name": "Funghi",
@@ -2563,126 +1839,372 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Hamburguesa con queso",
-                  "description": "200 gramos de carne de ternera irlandesa Black Angus, queso cheddar madurado durante 9 meses, lechuga iceberg rallada, cebollas caramelizadas, tomates triturados y salsa casera.",
-                  "base_price": 14.3,
+                  "name": "Fuze Tea Sabor Original Limón",
+                  "description": "300 ml",
+                  "base_price": 2.9,
                   "currency": "EUR",
                   "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 14.3
-                        }
-                      ]
-                    }
-                  ],
+                  "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/hamburguesa_con_queso.jpg",
+                  "image_url": "./assets/products/fuze_tea_sabor_original_limon.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Hamburguesa de tocino",
-                  "description": "200 gramos de carne de ternera irlandesa Black Angus, cebollas caramelizadas con pimentón, lechuga iceberg, cebolla roja, panceta, salsa de tomate, pepinillos y salsa BBQ",
-                  "base_price": 17.05,
+                  "name": "Fuze Tea Sabor Original Té Verde-Maracuyá",
+                  "description": "300 ml",
+                  "base_price": 2.9,
                   "currency": "EUR",
                   "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 17.05
-                        }
-                      ]
-                    }
-                  ],
+                  "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/hamburguesa_de_tocino.jpg",
+                  "image_url": "./assets/products/fuze_tea_sabor_original_te_verde_maracuya.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Menú - Maki 18 pzas.",
+                  "name": "Gin Tonic",
+                  "description": "",
+                  "base_price": 8,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Normal",
+                      "price": 8
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Premium",
+                      "price": 9.5
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/gin_tonic.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Green Tea",
+                  "description": "",
+                  "base_price": 5.17,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/green_tea.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Ice Tea",
+                  "description": "",
+                  "base_price": 2.42,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/ice_tea.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Infusiones",
+                  "description": "",
+                  "base_price": 1.7,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/infusiones.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "JARRA",
+                  "description": "",
+                  "base_price": 11,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 11
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 11.2
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/jarra.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Jamón Ibérico",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Cebo Campo Medio",
+                      "price": 14.8
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Cebo Campo Entero",
+                      "price": 19.9
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Cebo campo Mini Tapa",
+                      "price": 5
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Bellota media",
+                      "price": 21
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Bellota Entera",
+                      "price": 26
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Bellota Mini Tapa",
+                      "price": 5
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/jamon_iberico.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Juan Gil Plata crianza",
+                  "description": "Otras D.O.",
+                  "base_price": 21,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/juan_gil_plata_crianza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Juan Gil Roble jumilla",
+                  "description": "Otras D.O.",
+                  "base_price": 16,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/juan_gil_roble_jumilla.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Lacón a la gallega",
+                  "description": "",
+                  "base_price": 12,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/lacon_a_la_gallega.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Laya Roble Almanza",
+                  "description": "Otras D.O.",
+                  "base_price": 15,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/laya_roble_almanza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Lomito de bellota",
+                  "description": "",
+                  "base_price": 14,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Media",
+                      "price": 14
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Entera",
+                      "price": 19
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/lomito_de_bellota.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Luis Cañas Crianza",
+                  "description": "D.O. Rioja",
+                  "base_price": 23,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/luis_canas_crianza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Lunch Maki 18pc",
                   "description": "",
                   "base_price": 13.2,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/menu_maki_18_pzas.jpg",
+                  "image_url": "./assets/products/lunch_maki_18pc.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Menú - salmón 20 pzas.",
+                  "name": "Lunch Salmon 20pc",
                   "description": "",
                   "base_price": 15.18,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/menu_salmon_20_pzas.jpg",
+                  "image_url": "./assets/products/lunch_salmon_20pc.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Menú - temaki 3 pzas.",
+                  "name": "Lunch Temaki mix 3pc",
                   "description": "",
                   "base_price": 15.4,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/menu_temaki_3_pzas.jpg",
+                  "image_url": "./assets/products/lunch_temaki_mix_3pc.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "MENTIRETA",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mentireta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Malleolus Reserva Especial",
+                  "description": "D.O. Ribera del Duero",
+                  "base_price": 48,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/malleolus_reserva_especial.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Mejillones",
+                  "description": "7-10 unidades",
+                  "base_price": 10,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mejillones.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Milkshake Banana",
+                  "description": "",
+                  "base_price": 3.96,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/milkshake_banana.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Mini tapa de jamón",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mini_tapa_de_jamon.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2703,22 +2225,161 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Morcón ibérico",
-                  "description": "",
-                  "base_price": 10.8,
+                  "name": "Minute Maid Melocotón",
+                  "description": "200 ml",
+                  "base_price": 2,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/morcon_iberico.jpg",
+                  "image_url": "./assets/products/minute_maid_melocoton.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Pasta 4 formaggi",
-                  "description": "Pimienta, mozzarella, gorgonzola dulce, taleggio y parmesano",
+                  "name": "Minute Maid Piña",
+                  "description": "200 ml",
+                  "base_price": 2,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/minute_maid_pina.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Mozzarella Sandwich",
+                  "description": "",
+                  "base_price": 4.29,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mozzarella_sandwich.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Muga Crianza",
+                  "description": "D.O. Rioja",
+                  "base_price": 32,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/muga_crianza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "PATA DE PULPO GALLEGO",
+                  "description": "Pulpo fresco cocido",
+                  "base_price": 19.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/pata_de_pulpo_gallego.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "PERICANA ALCOIANA",
+                  "description": "PERICANA AL ESTILO ALCOIANA",
+                  "base_price": 9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/pericana_alcoiana.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "PROVOLONE TOMATE con Viruta",
+                  "description": "Base nuestro tomate del día con queso , orégano fresco Acompañado de viruta fina",
+                  "base_price": 7,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/provolone_tomate_con_viruta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Papas",
+                  "description": "",
+                  "base_price": 1.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/papas.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Papas con jamón",
+                  "description": "",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/papas_con_jamon.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "popular",
+                      "title": "Popular",
+                      "subtitle": "Popular",
+                      "icon": "flame",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Pasta 4 Formaggi",
+                  "description": "Pepe, latte, gorgonzola dolce, taleggio, parmigiano reggiano",
                   "base_price": 10.45,
                   "currency": "EUR",
                   "variants": [],
@@ -2747,14 +2408,28 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Pasta boloñesa",
+                  "name": "Pasta Bolognese",
                   "description": "",
                   "base_price": 4.95,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/pasta_bolonesa.jpg",
+                  "image_url": "./assets/products/pasta_bolognese.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Pizarra patés y sobrasada",
+                  "description": "",
+                  "base_price": 10.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/pizarra_pates_y_sobrasada.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2762,7 +2437,7 @@
                 },
                 {
                   "name": "Pizza Margherita",
-                  "description": "Salsa de tomate, queso mozzarella agerola \"Fior di Latte\" y albahaca fresca",
+                  "description": "Tomato sauce, Agerola mozzarella \"fior di latte\", fresh basil",
                   "base_price": 12.65,
                   "currency": "EUR",
                   "variants": [],
@@ -2770,7 +2445,7 @@
                     {
                       "name": "Extras",
                       "min": 0,
-                      "max": 6,
+                      "max": 5,
                       "options": [
                         {
                           "name": "Pepperoni",
@@ -2791,10 +2466,6 @@
                         {
                           "name": "Extra cheese",
                           "price": 14.3
-                        },
-                        {
-                          "name": "mini",
-                          "price": 7.15
                         }
                       ]
                     }
@@ -2807,8 +2478,8 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Pizza vegetariana",
-                  "description": "Pizza vegetariana",
+                  "name": "Pizza Vegetarian",
+                  "description": "Pizza Vegetarian",
                   "base_price": 17.6,
                   "currency": "EUR",
                   "variants": [],
@@ -2842,21 +2513,173 @@
                     }
                   ],
                   "allergens": [],
-                  "image_url": "./assets/products/pizza_vegetariana.jpg",
+                  "image_url": "./assets/products/pizza_vegetarian.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Salmón y aguacate",
+                  "name": "Protos Roble",
+                  "description": "D.O. Ribera del Duero",
+                  "base_price": 19,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/protos_roble.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Provolone Quesos + azul",
+                  "description": "base queso provolone con queso azul , orégano fresco",
+                  "base_price": 6.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/provolone_quesos_azul.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Quesos nacionales",
+                  "description": "",
+                  "base_price": 14,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Media",
+                      "price": 14
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Entera",
+                      "price": 18.5
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/quesos_nacionales.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "RIBERA DEL DUERO",
+                  "description": "D.O. Ribera del Duero",
+                  "base_price": 13.7,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Botella",
+                      "price": 13.7
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Copa",
+                      "price": 3.9
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/ribera_del_duero.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "popular",
+                      "title": "Popular",
+                      "subtitle": "Popular",
+                      "icon": "flame",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "ROIBOS FRUTOS ROJOS SILVESTRES BIO",
+                  "description": "CONTIENE - TE ROJO, MANZANA, HIBISCO FLOR, ESCARAMUJO, *SAUCO , HOJAS DE MORA, *FRAMBUESA, * FRESA *ARANDANO",
+                  "base_price": 2.4,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/roibos_frutos_rojos_silvestres_bio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Ramón Bilbao Crianza",
+                  "description": "D.O. Rioja",
+                  "base_price": 19,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/ramon_bilbao_crianza.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Royal Bliss Tonic Water",
+                  "description": "200 ml",
+                  "base_price": 2.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/royal_bliss_tonic_water.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Salmon and Avocado",
                   "description": "",
                   "base_price": 10.18,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/salmon_y_aguacate.jpg",
+                  "image_url": "./assets/products/salmon_and_avocado.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Sardinillas",
+                  "description": "10-12 unidades",
+                  "base_price": 7.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/sardinillas.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2877,28 +2700,395 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Té helado",
+                  "name": "Spicy Tuna Sandwich",
                   "description": "",
-                  "base_price": 2.42,
+                  "base_price": 3.3,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/te_helado.jpg",
+                  "image_url": "./assets/products/spicy_tuna_sandwich.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Té verde",
-                  "description": "",
-                  "base_price": 5.17,
+                  "name": "Sprite Original",
+                  "description": "350 ml",
+                  "base_price": 2.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/te_verde.jpg",
+                  "image_url": "./assets/products/sprite_original.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Sushi Lunch Combo",
+                  "description": "",
+                  "base_price": 22,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/sushi_lunch_combo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "TARTA DE MANZANA",
+                  "description": "",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tarta_de_manzana.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "TINTO DE VERANO CASERO",
+                  "description": "TINTO DE  VERANO DOS COLORES CON VINO Y LIMON",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tinto_de_verano_casero.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tanque",
+                  "description": "",
+                  "base_price": 4.6,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 4.6
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 4.8
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tanque.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tarta Lotus",
+                  "description": "",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tarta_lotus.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Torreznos de Soria",
+                  "description": "DISPONIBLE - VIERNES Y SABADO DE TARDES",
+                  "base_price": 7.2,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/torreznos_de_soria.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [
+                    {
+                      "id": "novedad",
+                      "title": "Novedad",
+                      "subtitle": "new",
+                      "icon": "stars",
+                      "isSelected": true,
+                      "type": 1
+                    }
+                  ],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "Tostada de aceite",
+                  "description": "",
+                  "base_price": 2,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_aceite.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de anchoas",
+                  "description": "",
+                  "base_price": 4.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_anchoas.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de jamón cebo Campo",
+                  "description": "",
+                  "base_price": 6,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_jamon_cebo_campo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de paletilla ibérica",
+                  "description": "",
+                  "base_price": 4.8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_paletilla_iberica.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de queso",
+                  "description": "",
+                  "base_price": 3.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_queso.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de sobrasada",
+                  "description": "",
+                  "base_price": 3.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_sobrasada.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de ventresca",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_ventresca.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada de viruta",
+                  "description": "",
+                  "base_price": 4.8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_de_viruta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostada jamón de bellota",
+                  "description": "",
+                  "base_price": 8,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostada_jamon_de_bellota.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tostadas de tomate",
+                  "description": "",
+                  "base_price": 2.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tostadas_de_tomate.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Turia Tercio",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/turia_tercio.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Turia Tostada Tercio 0.0",
+                  "description": "",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/turia_tostada_tercio_0_0.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": true
+                },
+                {
+                  "name": "VASO LECHE",
+                  "description": "",
+                  "base_price": 1.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/vaso_leche.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "VERMUT BLANCO O ROJO",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Venta del Puerto 12",
+                  "description": "D.O. Valencia",
+                  "base_price": 23,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/venta_del_puerto_12.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Verdejo SECO",
+                  "description": "Rueda",
+                  "base_price": 13,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "Formato",
+                      "value": "Botella",
+                      "price": 13
+                    },
+                    {
+                      "attribute": "Formato",
+                      "value": "Copa",
+                      "price": 3.5
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/verdejo_seco.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Voll Damm",
+                  "description": "330 ml",
+                  "base_price": 3,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/voll_damm.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Water",
+                  "description": "",
+                  "base_price": 2.42,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/water.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
