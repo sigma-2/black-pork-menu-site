@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-27T10:30:41.304Z",
+  "generated_at": "2026-05-27T11:24:19.099Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -427,6 +427,31 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/mentireta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Tanque",
+                  "description": "",
+                  "base_price": 4.6,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 4.6
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 4.8
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/tanque.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2412,62 +2437,6 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocata Gran Reserva",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocata_gran_reserva.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bocata hostelera rústico Mediterráneo 130 gr",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocata_hostelera_rustico_mediterraneo_130_gr.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bocata tradicion especial 150gr",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocata_tradicion_especial_150gr.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Boquerón entero 45/55",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/boqueron_entero_45_55.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Chicken Curry Sandwich",
                   "description": "",
                   "base_price": 3.3,
@@ -2482,160 +2451,6 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Club Sandwich",
-                  "description": "",
-                  "base_price": 3.74,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/club_sandwich.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Espresso",
-                  "description": "",
-                  "base_price": 5.17,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/espresso.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Fanta",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fanta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Funghi",
-                  "description": "",
-                  "base_price": 7.7,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/funghi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Green Tea",
-                  "description": "",
-                  "base_price": 5.17,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/green_tea.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Ice Tea",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/ice_tea.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Lunch Maki 18pc",
-                  "description": "",
-                  "base_price": 13.2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/lunch_maki_18pc.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Lunch Salmon 20pc",
-                  "description": "",
-                  "base_price": 15.18,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/lunch_salmon_20pc.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Lunch Temaki mix 3pc",
-                  "description": "",
-                  "base_price": 15.4,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/lunch_temaki_mix_3pc.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Minute Maid",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/minute_maid.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Mozzarella Sandwich",
                   "description": "",
                   "base_price": 4.29,
@@ -2644,50 +2459,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/mozzarella_sandwich.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pasta 4 Formaggi",
-                  "description": "Pepe, latte, gorgonzola dolce, taleggio, parmigiano reggiano",
-                  "base_price": 10.45,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 2,
-                      "options": [
-                        {
-                          "name": "Mushroom",
-                          "price": 12.65
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 12.1
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pasta_4_formaggi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pasta Bolognese",
-                  "description": "",
-                  "base_price": 4.95,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/pasta_bolognese.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2744,31 +2515,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/sushi_lunch_combo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Tanque",
-                  "description": "",
-                  "base_price": 4.6,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "MArca",
-                      "value": "Estrella Levante",
-                      "price": 4.6
-                    },
-                    {
-                      "attribute": "MArca",
-                      "value": "Turia",
-                      "price": 4.8
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/tanque.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
