@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-26T12:46:39.961Z",
+  "generated_at": "2026-05-27T12:22:30.054Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -13,20 +13,6 @@
               "name": "Refrescos",
               "products": [
                 {
-                  "name": "AQUARIUS NARANJA",
-                  "description": "300 ml",
-                  "base_price": 2.9,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aquarius_naranja.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Aquarius Limón",
                   "description": "300 ml",
                   "base_price": 2.9,
@@ -35,6 +21,20 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/aquarius_limon.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Aquarius Naranja",
+                  "description": "300 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aquarius_naranja.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -147,6 +147,20 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/fuze_tea_sabor_original_te_verde_maracuya.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
+                  "name": "Sprite Original",
+                  "description": "350 ml",
+                  "base_price": 2.9,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/sprite_original.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -271,6 +285,20 @@
               "name": "Cervezas",
               "products": [
                 {
+                  "name": "APEROL - SPRIT",
+                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
+                  "base_price": 5.5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/aperol_sprit.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Alambra 1925",
                   "description": "330 ml",
                   "base_price": 3,
@@ -291,12 +319,12 @@
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Estrella Levante",
                       "price": 2.8
                     },
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Turia",
                       "price": 2.9
                     }
@@ -312,7 +340,7 @@
                 {
                   "name": "Damm Lemon Tercio",
                   "description": "",
-                  "base_price": 2.9,
+                  "base_price": 1091.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
@@ -372,12 +400,12 @@
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Estrella Levante",
                       "price": 11
                     },
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Turia",
                       "price": 11.2
                     }
@@ -391,18 +419,32 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "MENTIRETA",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/mentireta.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Tanque",
                   "description": "",
                   "base_price": 4.6,
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Estrella Levante",
                       "price": 4.6
                     },
                     {
-                      "attribute": "Marca",
+                      "attribute": "MArca",
                       "value": "Turia",
                       "price": 4.8
                     }
@@ -444,6 +486,20 @@
                   "sin_gluten": true
                 },
                 {
+                  "name": "VERMUT BLANCO O ROJO",
+                  "description": "",
+                  "base_price": 5,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Voll Damm",
                   "description": "330 ml",
                   "base_price": 3,
@@ -462,20 +518,6 @@
             {
               "name": "Licores",
               "products": [
-                {
-                  "name": "APEROL - SPRIT",
-                  "description": "Mezcla de Aperol Sprite y vino espumoso con un toque citrico",
-                  "base_price": 5.5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aperol_sprit.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
                 {
                   "name": "Chupito",
                   "description": "",
@@ -575,34 +617,6 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
-                },
-                {
-                  "name": "MENTIRETA",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/mentireta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "VERMUT BLANCO O ROJO",
-                  "description": "",
-                  "base_price": 5,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/vermut_blanco_o_rojo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
                 }
               ]
             },
@@ -637,7 +651,7 @@
                 {
                   "name": "Bahía Denia Moscatel 100%",
                   "description": "Valencia",
-                  "base_price": 18,
+                  "base_price": 16,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
@@ -2395,510 +2409,42 @@
               "name": "Otros",
               "products": [
                 {
-                  "name": "Batido de plátano",
+                  "name": "AQUARIUS NAR VR30 C24",
                   "description": "",
-                  "base_price": 3.96,
+                  "base_price": 0,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/batido_de_platano.jpg",
+                  "image_url": "./assets/products/aquarius_nar_vr30_c24.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo Club",
+                  "name": "AQUARIUS VR30 C24",
                   "description": "",
-                  "base_price": 3.74,
+                  "base_price": 0,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/bocadillo_club.jpg",
+                  "image_url": "./assets/products/aquarius_vr30_c24.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": false
                 },
                 {
-                  "name": "Bocadillo de atún picante",
-                  "description": "",
-                  "base_price": 3.3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_atun_picante.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bocadillo de mozzarella",
-                  "description": "",
-                  "base_price": 4.29,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_mozzarella.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bocadillo de pollo con curry",
-                  "description": "",
-                  "base_price": 3.3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_pollo_con_curry.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Coca-Cola",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/coca_cola.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Combinación de sushi",
+                  "name": "Sushi Lunch Combo",
                   "description": "",
                   "base_price": 22,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/combinacion_de_sushi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Combinación del menú de hamburguesas",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/combinacion_del_menu_de_hamburguesas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Demo_Agua",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/demo_agua.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Espresso",
-                  "description": "",
-                  "base_price": 5.17,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/espresso.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Fanta",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/fanta.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Funghi",
-                  "description": "",
-                  "base_price": 7.7,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/funghi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Hamburguesa con queso",
-                  "description": "200 gramos de carne de ternera irlandesa Black Angus, queso cheddar madurado durante 9 meses, lechuga iceberg rallada, cebollas caramelizadas, tomates triturados y salsa casera.",
-                  "base_price": 14.3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 14.3
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/hamburguesa_con_queso.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Hamburguesa de tocino",
-                  "description": "200 gramos de carne de ternera irlandesa Black Angus, cebollas caramelizadas con pimentón, lechuga iceberg, cebolla roja, panceta, salsa de tomate, pepinillos y salsa BBQ",
-                  "base_price": 17.05,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 17.05
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/hamburguesa_de_tocino.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Menú - Maki 18 pzas.",
-                  "description": "",
-                  "base_price": 13.2,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/menu_maki_18_pzas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Menú - salmón 20 pzas.",
-                  "description": "",
-                  "base_price": 15.18,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/menu_salmon_20_pzas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Menú - temaki 3 pzas.",
-                  "description": "",
-                  "base_price": 15.4,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/menu_temaki_3_pzas.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Minute Maid",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/minute_maid.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Morcón ibérico",
-                  "description": "",
-                  "base_price": 10.8,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/morcon_iberico.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pasta 4 formaggi",
-                  "description": "Pimienta, mozzarella, gorgonzola dulce, taleggio y parmesano",
-                  "base_price": 10.45,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 2,
-                      "options": [
-                        {
-                          "name": "Mushroom",
-                          "price": 12.65
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 12.1
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pasta_4_formaggi.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pasta boloñesa",
-                  "description": "",
-                  "base_price": 4.95,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/pasta_bolonesa.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pizza Margherita",
-                  "description": "Salsa de tomate, queso mozzarella agerola \"Fior di Latte\" y albahaca fresca",
-                  "base_price": 12.65,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 6,
-                      "options": [
-                        {
-                          "name": "Pepperoni",
-                          "price": 15.95
-                        },
-                        {
-                          "name": "Mushroom",
-                          "price": 14.85
-                        },
-                        {
-                          "name": "Black olives",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Anchovy",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "mini",
-                          "price": 7.15
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pizza_margherita.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pizza vegetariana",
-                  "description": "Pizza vegetariana",
-                  "base_price": 17.6,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Pepperoni",
-                          "price": 20.9
-                        },
-                        {
-                          "name": "Mushroom",
-                          "price": 19.8
-                        },
-                        {
-                          "name": "Black olives",
-                          "price": 19.25
-                        },
-                        {
-                          "name": "Anchovy",
-                          "price": 19.25
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 19.25
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pizza_vegetariana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Salmón y aguacate",
-                  "description": "",
-                  "base_price": 10.18,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/salmon_y_aguacate.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Schweppes",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/schweppes.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Té helado",
-                  "description": "",
-                  "base_price": 2.42,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/te_helado.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Té verde",
-                  "description": "",
-                  "base_price": 5.17,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/te_verde.jpg",
+                  "image_url": "./assets/products/sushi_lunch_combo.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
