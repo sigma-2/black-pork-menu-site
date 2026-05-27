@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-27T12:22:30.054Z",
+  "generated_at": "2026-05-27T12:57:47.770Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -2437,14 +2437,14 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Sushi Lunch Combo",
-                  "description": "",
-                  "base_price": 22,
+                  "name": "Venta de Jamones",
+                  "description": "Entrega en 24-72 horas hábiles. Consultar opciones y precios.",
+                  "base_price": 0,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/sushi_lunch_combo.jpg",
+                  "image_url": "./assets/products/venta_de_jamones.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
