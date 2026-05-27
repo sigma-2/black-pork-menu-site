@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-27T10:11:32.670Z",
+  "generated_at": "2026-05-27T10:30:41.304Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -313,6 +313,31 @@
                   "sin_gluten": false
                 },
                 {
+                  "name": "Caña",
+                  "description": "",
+                  "base_price": 2.8,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 2.8
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 2.9
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/cana.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                },
+                {
                   "name": "Damm Lemon Tercio",
                   "description": "",
                   "base_price": 1091.9,
@@ -367,6 +392,31 @@
                   "isOutOfStock": false,
                   "tags": [],
                   "sin_gluten": true
+                },
+                {
+                  "name": "JARRA",
+                  "description": "",
+                  "base_price": 11,
+                  "currency": "EUR",
+                  "variants": [
+                    {
+                      "attribute": "MArca",
+                      "value": "Estrella Levante",
+                      "price": 11
+                    },
+                    {
+                      "attribute": "MArca",
+                      "value": "Turia",
+                      "price": 11.2
+                    }
+                  ],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/jarra.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
                 },
                 {
                   "name": "MENTIRETA",
@@ -2334,34 +2384,6 @@
               "name": "Otros",
               "products": [
                 {
-                  "name": "AGUA PIRINEA 1/3 REC. C24",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/agua_pirinea_1_3_rec_c24.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "ALHAMBRA VERDE (supeco)",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/alhambra_verde_supeco.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "AQUARIUS NAR VR30 C24",
                   "description": "",
                   "base_price": 0,
@@ -2384,188 +2406,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/aquarius_vr30_c24.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Aceitunas chupadedos 4k",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aceitunas_chupadedos_4k.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Agua aquarel",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/agua_aquarel.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Azúcar moreno barsel 500 ud sobres 7g",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/azucar_moreno_barsel_500_ud_sobres_7g.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BARRIL E. LEVANTE 30L",
-                  "description": "",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/barril_e_levante_30l.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BARRIL MARZEN TURIA 30L",
-                  "description": "",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/barril_marzen_turia_30l.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BARRIL VACIO 30 LITROS",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/barril_vacio_30_litros.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BASE BLANCA REDONDA 24CM PLATO",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/base_blanca_redonda_24cm_plato.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BOCADILLO DE AGUA 140GR",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bocadillo_de_agua_140gr.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "BOLSA BLACK PORK 300*270MM VACIO",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bolsa_black_pork_300_270mm_vacio.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bacon Burger",
-                  "description": "200G Irish Black Angus beef, caramelized onions with paprika, chopped iceberg salad, red onions, grilled bacon, tomato sauce, pickles, barbecue sauce",
-                  "base_price": 17.05,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 17.05
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 17.05
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/bacon_burger.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Bobina papel mecha laminado 6 u",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/bobina_papel_mecha_laminado_6_u.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2622,101 +2462,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/boqueron_entero_45_55.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Burger Menu Combo",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/burger_menu_combo.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Burguer Cristalino",
-                  "description": "",
-                  "base_price": 1.1,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/burguer_cristalino.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Caña",
-                  "description": "",
-                  "base_price": 2.8,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "MArca",
-                      "value": "Estrella Levante",
-                      "price": 2.8
-                    },
-                    {
-                      "attribute": "MArca",
-                      "value": "Turia",
-                      "price": 2.9
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/cana.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Cheese Burger",
-                  "description": "200G Irish Black Angus beef, 9-month matured cheddar cheese, shredded iceberg lettuce, caramelised onions, crushed tomatoes and Chef’s sauce.",
-                  "base_price": 14.3,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Sides",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Belgian fresh homemade fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Sweet potato fries",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Smashed sweet potatoes",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Potatoes with thyme",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Grilled vegetables",
-                          "price": 14.3
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/cheese_burger.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2835,31 +2580,6 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "JARRA",
-                  "description": "",
-                  "base_price": 11,
-                  "currency": "EUR",
-                  "variants": [
-                    {
-                      "attribute": "MArca",
-                      "value": "Estrella Levante",
-                      "price": 11
-                    },
-                    {
-                      "attribute": "MArca",
-                      "value": "Turia",
-                      "price": 11.2
-                    }
-                  ],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/jarra.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
                   "name": "Lunch Maki 18pc",
                   "description": "",
                   "base_price": 13.2,
@@ -2896,20 +2616,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/lunch_temaki_mix_3pc.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Milkshake Banana",
-                  "description": "",
-                  "base_price": 3.96,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/milkshake_banana.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -2982,90 +2688,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/pasta_bolognese.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pizza Margherita",
-                  "description": "Tomato sauce, Agerola mozzarella \"fior di latte\", fresh basil",
-                  "base_price": 12.65,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Pepperoni",
-                          "price": 15.95
-                        },
-                        {
-                          "name": "Mushroom",
-                          "price": 14.85
-                        },
-                        {
-                          "name": "Black olives",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Anchovy",
-                          "price": 14.3
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 14.3
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pizza_margherita.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Pizza Vegetarian",
-                  "description": "Pizza Vegetarian",
-                  "base_price": 17.6,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [
-                    {
-                      "name": "Extras",
-                      "min": 0,
-                      "max": 5,
-                      "options": [
-                        {
-                          "name": "Pepperoni",
-                          "price": 20.9
-                        },
-                        {
-                          "name": "Mushroom",
-                          "price": 19.8
-                        },
-                        {
-                          "name": "Black olives",
-                          "price": 19.25
-                        },
-                        {
-                          "name": "Anchovy",
-                          "price": 19.25
-                        },
-                        {
-                          "name": "Extra cheese",
-                          "price": 19.25
-                        }
-                      ]
-                    }
-                  ],
-                  "allergens": [],
-                  "image_url": "./assets/products/pizza_vegetarian.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
