@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-27T12:57:47.770Z",
+  "generated_at": "2026-05-28T09:01:40.265Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -319,12 +319,12 @@
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Estrella Levante",
                       "price": 2.8
                     },
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Turia",
                       "price": 2.9
                     }
@@ -340,7 +340,7 @@
                 {
                   "name": "Damm Lemon Tercio",
                   "description": "",
-                  "base_price": 1091.9,
+                  "base_price": 7328.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
@@ -380,14 +380,14 @@
                   "sin_gluten": false
                 },
                 {
-                  "name": "Free Damm Rubia Tercio 0.0",
+                  "name": "Fredamm Rubia Tercio 0.0",
                   "description": "",
                   "base_price": 2.9,
                   "currency": "EUR",
                   "variants": [],
                   "modifiers": [],
                   "allergens": [],
-                  "image_url": "./assets/products/free_damm_rubia_tercio_0_0.jpg",
+                  "image_url": "./assets/products/fredamm_rubia_tercio_0_0.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
@@ -400,12 +400,12 @@
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Estrella Levante",
                       "price": 11
                     },
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Turia",
                       "price": 11.2
                     }
@@ -439,12 +439,12 @@
                   "currency": "EUR",
                   "variants": [
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Estrella Levante",
                       "price": 4.6
                     },
                     {
-                      "attribute": "MArca",
+                      "attribute": "Marca",
                       "value": "Turia",
                       "price": 4.8
                     }
@@ -2393,58 +2393,6 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/tarta_lotus.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Otros",
-          "subsections": [
-            {
-              "name": "Otros",
-              "products": [
-                {
-                  "name": "AQUARIUS NAR VR30 C24",
-                  "description": "",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aquarius_nar_vr30_c24.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "AQUARIUS VR30 C24",
-                  "description": "",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/aquarius_vr30_c24.jpg",
-                  "isNotAvailable": false,
-                  "isOutOfStock": false,
-                  "tags": [],
-                  "sin_gluten": false
-                },
-                {
-                  "name": "Venta de Jamones",
-                  "description": "Entrega en 24-72 horas hábiles. Consultar opciones y precios.",
-                  "base_price": 0,
-                  "currency": "EUR",
-                  "variants": [],
-                  "modifiers": [],
-                  "allergens": [],
-                  "image_url": "./assets/products/venta_de_jamones.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
