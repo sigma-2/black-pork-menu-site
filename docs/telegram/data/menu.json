@@ -1,7 +1,7 @@
 {
   "source": "odoo",
   "restaurant": "Carta Black Pork Ontiyent",
-  "generated_at": "2026-05-28T09:03:07.695Z",
+  "generated_at": "2026-05-28T09:10:08.568Z",
   "menus": [
     {
       "name": "Carta principal",
@@ -2393,6 +2393,30 @@
                   "modifiers": [],
                   "allergens": [],
                   "image_url": "./assets/products/tarta_lotus.jpg",
+                  "isNotAvailable": false,
+                  "isOutOfStock": false,
+                  "tags": [],
+                  "sin_gluten": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Otros",
+          "subsections": [
+            {
+              "name": "Otros",
+              "products": [
+                {
+                  "name": "Venta de Jamones",
+                  "description": "Entrega en 24-72 horas hábiles. Consultar opciones y precios.",
+                  "base_price": 0,
+                  "currency": "EUR",
+                  "variants": [],
+                  "modifiers": [],
+                  "allergens": [],
+                  "image_url": "./assets/products/venta_de_jamones.jpg",
                   "isNotAvailable": false,
                   "isOutOfStock": false,
                   "tags": [],
