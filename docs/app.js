@@ -308,6 +308,60 @@ const renderNav = (sections) => {
       .join("");
 };
 
+// ---------- Sección virtual "Sin gluten" ----------
+// Recorre todas las secciones reales y recolecta:
+//  - productos con product.sin_gluten === true
+//  - productos cuyo nombre contiene "sin gluten"
+//  - productos con alguna variante cuyo `value` contiene "sin gluten"
+//    (en ese caso, clonamos el producto dejando SOLO esas variantes)
+// Los productos se agrupan reutilizando la subsección original
+// (Cervezas, Bocadillos, etc.) para mantener orientación visual.
+const GF_REGEX = /sin\s*gluten/i;
+
+const buildGlutenFreeSection = (sections) => {
+  const groups = new Map(); // nombre de subsección -> array de productos
+
+  for (const section of sections || []) {
+    // No nos auto-incluimos si ya existiera una sección "Sin gluten",
+    // y tampoco mezclamos "Otros" aquí dentro.
+    const sname = (section.name || "").trim().toLowerCase();
+    if (sname === "sin gluten" || sname === "otros") continue;
+
+    for (const sub of section.subsections || []) {
+      for (const product of sub.products || []) {
+        if (!product) continue;
+
+        const flagged   = product.sin_gluten === true;
+        const nameMatch = GF_REGEX.test(product.name || "");
+        const gfVariants = (product.variants || []).filter(
+            (v) => GF_REGEX.test(v.value || "")
+        );
+
+        let toAdd = null;
+        if (flagged || nameMatch) {
+          // Producto íntegro (con todas sus variantes)
+          toAdd = product;
+        } else if (gfVariants.length) {
+          // Producto con SOLO la(s) variante(s) sin gluten
+          toAdd = { ...product, variants: gfVariants };
+        }
+
+        if (toAdd) {
+          if (!groups.has(sub.name)) groups.set(sub.name, []);
+          groups.get(sub.name).push(toAdd);
+        }
+      }
+    }
+  }
+
+  if (!groups.size) return null;
+
+  return {
+    name: "Sin gluten",
+    subsections: Array.from(groups, ([name, products]) => ({ name, products })),
+  };
+};
+
 const renderMenu = (data) => {
   const root = $("#menu");
   root.removeAttribute("aria-busy");
@@ -326,7 +380,21 @@ const renderMenu = (data) => {
     return;
   }
 
-  const sections = (menu.sections || []).filter((s) => s.subsections?.length);
+  // Construimos la sección virtual "Sin gluten" y la insertamos
+  // justo antes de "Otros". Si no existe "Otros", la dejamos al final.
+  const rawSections = (menu.sections || []).slice();
+  const gfSection = buildGlutenFreeSection(rawSections);
+  if (gfSection) {
+    const otrosIdx = rawSections.findIndex(
+        (s) => (s.name || "").trim().toLowerCase() === "otros"
+    );
+    if (otrosIdx >= 0) {
+      rawSections.splice(otrosIdx, 0, gfSection);
+    } else {
+      rawSections.push(gfSection);
+    }
+  }
+  const sections = rawSections.filter((s) => s.subsections?.length);
 
   // Actualizamos cabecera con el nombre real si existe
   const titleEl = document.querySelector(".masthead__sub");
