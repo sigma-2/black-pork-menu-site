@@ -119,6 +119,8 @@ const renderProduct = (product) => {
     popular: { label: "Popular", cls: "tag--popular" },
     novedad: { label: "Novedad", cls: "tag--new" },
     new:     { label: "Novedad", cls: "tag--new" },
+    sin_gluten: {label: "Sin Gluten", cls: "tag--gluten"},
+    "sin gluten": { label: "Sin Gluten", cls: "tag--gluten" },
   };
   const tags = (product.tags || [])
       .map((t) => {
@@ -158,7 +160,9 @@ const renderProduct = (product) => {
     }
   }
 
-  const price = displayPrice != null
+  const hasVariants = variants && variants.length > 0;
+  //const price = (displayPrice != null && !(hasVariants && displayPrice === 0))
+  const price = (displayPrice != null && !hasVariants)
       ? `<span class="product__price">${
           priceFromLabel
               ? `<span class="product__price-from">${priceFromLabel}</span>`
@@ -273,11 +277,20 @@ const renderSubsection = (sub) => {
 };
 
 const renderSection = (section, idx) => {
+  // Productos directos en la sección (sin subsección)
+  const rootProds = (section.products || []).filter(
+      (p) => p && (p.name || p.description)
+  );
+  const rootHTML = rootProds.length
+      ? `<div class="products">${rootProds.map(renderProduct).join("")}</div>`
+      : "";
+
   const subs = (section.subsections || [])
       .map(renderSubsection)
       .filter(Boolean)
       .join("");
-  if (!subs) return "";
+
+  if (!rootHTML && !subs) return "";
 
   const id = slug(section.name);
   return `
@@ -291,11 +304,11 @@ const renderSection = (section, idx) => {
           <span></span><em>✦</em><span></span>
         </div>
       </header>
+      ${rootHTML}
       ${subs}
     </section>
   `;
 };
-
 const renderNav = (sections) => {
   const nav = $("#sectionNav");
   nav.innerHTML = sections
@@ -319,38 +332,43 @@ const renderNav = (sections) => {
 const GF_REGEX = /sin\s*gluten/i;
 
 const buildGlutenFreeSection = (sections) => {
-  const groups = new Map(); // nombre de subsección -> array de productos
+  const groups = new Map();
 
   for (const section of sections || []) {
-    // No nos auto-incluimos si ya existiera una sección "Sin gluten",
-    // y tampoco mezclamos "Otros" aquí dentro.
     const sname = (section.name || "").trim().toLowerCase();
     if (sname === "sin gluten" || sname === "otros") continue;
 
-    for (const sub of section.subsections || []) {
-      for (const product of sub.products || []) {
+    // Helper para procesar un array de productos bajo un nombre de grupo
+    const processProducts = (groupName, products) => {
+      for (const product of products || []) {
         if (!product) continue;
 
-        const flagged   = product.sin_gluten === true;
-        const nameMatch = GF_REGEX.test(product.name || "");
+        const flagged    = product.sin_gluten === true;
+        const nameMatch  = GF_REGEX.test(product.name || "");
         const gfVariants = (product.variants || []).filter(
             (v) => GF_REGEX.test(v.value || "")
         );
 
         let toAdd = null;
         if (flagged || nameMatch) {
-          // Producto íntegro (con todas sus variantes)
           toAdd = product;
         } else if (gfVariants.length) {
-          // Producto con SOLO la(s) variante(s) sin gluten
           toAdd = { ...product, variants: gfVariants };
         }
 
         if (toAdd) {
-          if (!groups.has(sub.name)) groups.set(sub.name, []);
-          groups.get(sub.name).push(toAdd);
+          if (!groups.has(groupName)) groups.set(groupName, []);
+          groups.get(groupName).push(toAdd);
         }
       }
+    };
+
+    // Productos directos en la sección
+    processProducts(section.name, section.products);
+
+    // Productos en subsecciones
+    for (const sub of section.subsections || []) {
+      processProducts(sub.name, sub.products);
     }
   }
 
@@ -361,6 +379,7 @@ const buildGlutenFreeSection = (sections) => {
     subsections: Array.from(groups, ([name, products]) => ({ name, products })),
   };
 };
+
 
 const renderMenu = (data) => {
   const root = $("#menu");
@@ -394,7 +413,13 @@ const renderMenu = (data) => {
       rawSections.push(gfSection);
     }
   }
-  const sections = rawSections.filter((s) => s.subsections?.length);
+  // Antes:
+  // const sections = rawSections.filter((s) => s.subsections?.length);
+
+  // Ahora:
+  const sections = rawSections.filter(
+      (s) => s.subsections?.length || s.products?.length
+  );
 
   // Actualizamos cabecera con el nombre real si existe
   const titleEl = document.querySelector(".masthead__sub");
@@ -437,8 +462,10 @@ const setupSearch = () => {
       sub.classList.toggle("is-hidden", query && visible === 0);
     });
     $$(".section").forEach((sec) => {
-      const visible = $$(".subsection:not(.is-hidden)", sec).length;
-      sec.classList.toggle("is-hidden", query && visible === 0);
+      // Productos directos visibles (fuera de subsecciones)
+      const directVisible = $$(":scope > .products > .product:not(.is-hidden)", sec).length;
+      const subVisible = $$(".subsection:not(.is-hidden)", sec).length;
+      sec.classList.toggle("is-hidden", query && directVisible === 0 && subVisible === 0);
     });
 
     // Mostrar mensaje si no hay nada
